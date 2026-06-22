@@ -101,6 +101,10 @@ struct RemoteLicenseClient: LicenseAPI {
     }
 
     private func post<T: Decodable>(_ endpoint: String, body: [String: Any], completion: @escaping (Result<T, Error>) -> Void) {
+        if App.networkingDisabled {
+            completion(.failure(LicenseAPIError.noData))
+            return
+        }
         var request = URLRequest(url: URL(string: "\(baseUrl)/\(endpoint)")!)
         request.httpMethod = "POST"
         request.addValue("application/json", forHTTPHeaderField: "Content-Type")

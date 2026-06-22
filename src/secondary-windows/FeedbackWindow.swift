@@ -383,6 +383,10 @@ class FeedbackWindow: NSWindow {
         let cancelButton = alert.addButton(withTitle: NSLocalizedString("Cancel", comment: ""))
         cancelButton.keyEquivalent = "\u{1b}" // Escape
         if alert.runModal() != .alertFirstButtonReturn { return }
+        if App.networkingDisabled {
+            showSubmitFailureAlert()
+            return
+        }
         beginSubmitting()
         // Capture the kind that owns this submission. If the user navigates to the other kind
         // form while the POST is in flight, completion still clears the right draft slot.

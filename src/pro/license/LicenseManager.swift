@@ -6,12 +6,14 @@ class LicenseManager {
 
     static let shared: LicenseManager = {
         let keychain = SystemKeychain(service: keychainService)
-        return LicenseManager(
+        let manager = LicenseManager(
             clock: SystemClock(),
             keychain: keychain,
             api: RemoteLicenseClient(baseUrl: Endpoints.licenseApiBaseUrl, keychain: keychain),
             defaults: UserDefaults(suiteName: defaultsSuiteName)!
         )
+        manager.forceProUnlock = true
+        return manager
     }()
 
     static let trialDuration = 14
@@ -31,6 +33,11 @@ class LicenseManager {
     let keychain: Keychain
     let api: LicenseAPI
     let defaults: UserDefaults
+
+    /// Local fork override: when set, the manager reports Pro permanently. Only the production
+    /// `shared` singleton turns this on; injected test instances leave it `false` so the trial /
+    /// expiry logic in `computeState()` stays exercised by the unit tests.
+    var forceProUnlock = false
 
     /// Called whenever `state` changes (including the initial `initialize()` assignment).
     /// Production wires this up in App.swift to refresh Menubar, sync Sparkle cookie, and notify ProTransitionManager.
@@ -174,6 +181,7 @@ class LicenseManager {
     }
 
     func computeState() -> LicenseState {
+        if forceProUnlock { return .pro }
         if keychain.value(account: Self.keychainKeyAccount) != nil {
             let lastValidationResult = defaults.bool(forKey: "lastValidationResult")
             guard lastValidationResult else { return .trialExpired }

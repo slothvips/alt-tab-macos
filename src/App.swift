@@ -34,6 +34,11 @@ class App: AppCenterApplication {
     // periphery:ignore
     static var sparkleDelegate: SparkleDelegate?
     static var updaterController: SPUStandardUpdaterController?
+    /// Local fork switch: when true, every outbound network surface (Sparkle auto-update,
+    /// AppCenter crash upload, license API, feedback submission) is short-circuited so the app
+    /// never opens a connection. The app is not sandboxed, so this code-level gate is the only
+    /// reliable way to remove networking.
+    static let networkingDisabled = true
     // don't queue multiple delayed rebuildUi() calls
     private static var delayedDisplayScheduled = 0
     private static let switcherUiRefreshThrottler = Throttler(delayInMs: 200)
@@ -408,13 +413,15 @@ class App: AppCenterApplication {
         CursorEvents.observe()
         TrackpadEvents.observe()
         CliEvents.observe()
-        App.sparkleDelegate = SparkleDelegate()
-        App.updaterController = SPUStandardUpdaterController(
-            startingUpdater: false,
-            updaterDelegate: App.sparkleDelegate!,
-            userDriverDelegate: nil)
-        DispatchQueue.main.asyncAfter(deadline: .now() + 30) {
-            App.updaterController?.startUpdater()
+        if !App.networkingDisabled {
+            App.sparkleDelegate = SparkleDelegate()
+            App.updaterController = SPUStandardUpdaterController(
+                startingUpdater: false,
+                updaterDelegate: App.sparkleDelegate!,
+                userDriverDelegate: nil)
+            DispatchQueue.main.asyncAfter(deadline: .now() + 30) {
+                App.updaterController?.startUpdater()
+            }
         }
         PreferencesEvents.initialize()
         BenchmarkRunner.startIfNeeded()
@@ -438,7 +445,9 @@ class App: AppCenterApplication {
 
 extension App: NSApplicationDelegate {
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        App.appCenterDelegate = AppCenterCrash()
+        if !App.networkingDisabled {
+            App.appCenterDelegate = AppCenterCrash()
+        }
         App.shared.disableRelaunchOnLogin()
         Logger.initialize()
         Logger.info { "Launching AltTab \(App.version)" }
