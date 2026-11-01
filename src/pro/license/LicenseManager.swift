@@ -173,7 +173,7 @@ class LicenseManager {
     }
 
     private func startTrialIfNeeded() {
-        guard appIsUsable, !isMocked, defaults.object(forKey: "trialStartDate") == nil,
+        guard appIsUsable, !forcesPro, !isMocked, defaults.object(forKey: "trialStartDate") == nil,
               keychain.value(account: Self.keychainKeyAccount) == nil else { return }
         defaults.set(clock.now.timeIntervalSince1970, forKey: "trialStartDate")
         refreshState()
@@ -272,10 +272,11 @@ class LicenseManager {
     }
 
     func computeState() -> LicenseState {
-        if forcesPro { return .pro }
         #if DEBUG
+        // QA overlays win over the crack, so the trial/expired surfaces stay photographable.
         if hasMockedLicense { return mockedTrialStartDate.map(trialState) ?? state }
         #endif
+        if forcesPro { return .pro }
         if keychain.value(account: Self.keychainKeyAccount) != nil {
             let lastValidationResult = defaults.bool(forKey: "lastValidationResult")
             guard lastValidationResult else { return .trialExpired }

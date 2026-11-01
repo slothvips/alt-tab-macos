@@ -737,6 +737,27 @@ final class LicenseManagerTests: XCTestCase {
         XCTAssertTrue(api.activateCalls.isEmpty && api.deactivateCalls.isEmpty)
     }
 
+    /// A forced-Pro manager must not stamp `trialStartDate`: nothing in this build needs a trial, and a stamp
+    /// would silently consume the trial of any other build sharing the same bundle id.
+    func testForcedProNeverStartsATrial() {
+        manager.forcesPro = true
+        manager.initialize()
+        manager.onAppBecameUsable(accessibility: .granted, screenRecording: .granted)
+        XCTAssertNil(defaults.object(forKey: "trialStartDate"))
+        XCTAssertEqual(manager.state, .pro)
+    }
+
+    /// QA photographs the trial and expired surfaces by mocking a day. Those overlays must still win over the
+    /// crack, otherwise every Pro-journey screenshot would show a Pro UI.
+    #if DEBUG
+    func testQaTrialOverlayStillWinsOverTheCrack() {
+        manager.forcesPro = true
+        manager.mockTrialDay(40)
+        manager.refreshState()
+        XCTAssertEqual(manager.state, .trialExpired)
+    }
+    #endif
+
     /// Run everything already queued on main, then return. The chain under test is two hops deep (the mock
     /// API enqueues its completion, which enqueues the state write), so a block enqueued now runs after both.
     /// A fixed `RunLoop.run(until:)` spin cost 50ms per call for the same guarantee.
