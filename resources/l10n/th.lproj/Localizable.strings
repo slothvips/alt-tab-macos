@@ -7,7 +7,6 @@
 "4-finger Horizontal Swipe" = "ปัด 4 นิ้วในแนวนอน";
 "4-finger Vertical Swipe" = "ปัด 4 นิ้วในแนวตั้ง";
 "A little time." = "เวลาเล็กน้อย";
-"A new version of AltTab is available" = "มี AltTab เวอร์ชันใหม่ให้ใช้งาน";
 "About %@" = "เกี่ยวกับ %@";
 "Accessibility" = "การช่วยการเข้าถึง";
 "Activate" = "เปิดใช้งาน";
@@ -29,7 +28,6 @@
 "All Windows" = "ทุกหน้าต่าง";
 "Allowed" = "อนุญาต";
 "Alphabetical Order" = "เรียงตามตัวอักษร";
-"AltTab crashed last time you used it. Sending a crash report will help get the issue fixed" = "AltTab ขัดข้องในการใช้งานครั้งล่าสุด การส่งรายงานการขัดข้องจะช่วยแก้ไขปัญหา";
 "AltTab is ready" = "AltTab พร้อมแล้ว";
 "AltTab is running without Screen Recording permissions. %@ won’t show." = "AltTab กำลังทำงานโดยไม่มีสิทธิ์การบันทึกหน้าจอ %@จะไม่แสดง";
 "AltTab preferences file is a symlink. macOS doesn’t support symlink for preferences. Please use a valid file instead of a symlink here:" = "ไฟล์การตั้งค่าของ AltTab เป็นลิงก์สัญลักษณ์ macOS ไม่รองรับลิงก์สัญลักษณ์สำหรับการตั้งค่า โปรดใช้ไฟล์ที่ถูกต้องแทนลิงก์สัญลักษณ์ที่นี่:";
@@ -40,7 +38,6 @@
 "AltTab requires this permission to show you pictures of each window." = "AltTab ต้องการสิทธิ์นี้เพื่อแสดงภาพของแต่ละหน้าต่างให้คุณ";
 "AltTab will show if the window is currently minimized or fullscreen with a status icon." = "AltTab จะแสดงไอคอนสถานะหากหน้าต่างถูกย่อหรืออยู่ในโหมดเต็มหน้าจอ";
 "Always" = "เสมอ";
-"Always send crash reports" = "ส่งรายงานการขัดข้องเสมอ";
 "and press" = "แล้วกด";
 "Animations" = "แอนิเมชัน";
 "App Icons" = "ไอคอนแอป";
@@ -55,11 +52,9 @@
 "Applies in other Appearances" = "ใช้ในลักษณะอื่น";
 "Arrow keys" = "ปุ่มลูกศร";
 "Arrow keys already assigned to other actions:\n%@" = "ปุ่มลูกศรถูกกำหนดให้กับการกระทำอื่นแล้ว:\n%@";
-"Ask whether to send crash reports" = "ถามว่าจะส่งรายงานการขัดข้องหรือไม่";
 "Auto" = "อัตโนมัติ";
 "Auto Size" = "ขนาดอัตโนมัติ";
 "Auto Size — larger previews with few windows, more at once with many" = "ขนาดอัตโนมัติ — ภาพตัวอย่างใหญ่ขึ้นเมื่อมีหน้าต่างน้อย แสดงพร้อมกันมากขึ้นเมื่อมีหน้าต่างเยอะ";
-"Auto-install updates periodically" = "ติดตั้งอัปเดตอัตโนมัติเป็นระยะ";
 "Automatic activation failed" = "การเปิดใช้งานอัตโนมัติล้มเหลว";
 "Breakfast" = "มื้อเช้า";
 "Brief description of the bug" = "คำอธิบายโดยย่อของข้อบกพร่อง";
@@ -67,8 +62,6 @@
 "Bundle ID" = "Bundle ID";
 "Cancel" = "ยกเลิก";
 "Capture windows in the background" = "จับภาพหน้าต่างในเบื้องหลัง";
-"Check for updates periodically" = "ตรวจหาอัปเดตเป็นระยะ";
-"Check for updates…" = "ตรวจหาอัปเดต…";
 "Check permissions…" = "ตรวจสอบสิทธิ์…";
 "Choose a style" = "เลือกสไตล์";
 "Choose which windows to switch between" = "เลือกว่าจะสลับระหว่างหน้าต่างใด";
@@ -81,7 +74,6 @@
 "Could not move to Applications folder" = "ไม่สามารถย้ายไปยังโฟลเดอร์ Applications";
 "Couldn't deactivate that machine" = "ไม่สามารถปิดใช้งานเครื่องนั้น";
 "Couldn't save your license to the macOS Keychain. Please share the details below with the developer." = "ไม่สามารถบันทึกสิทธิ์ใช้งานของคุณไปยังพวงกุญแจของ macOS โปรดแบ่งปันรายละเอียดด้านล่างกับนักพัฒนา";
-"Crash reports policy" = "นโยบายรายงานการขัดข้อง";
 "Create GitHub issue" = "สร้างปัญหาบน GitHub";
 "Cursor follows focus" = "เคอร์เซอร์ตามโฟกัส";
 "Customize more…" = "ปรับแต่งเพิ่มเติม…";
@@ -101,8 +93,6 @@
 "Don't mention again" = "ไม่ต้องแจ้งอีก";
 "Don't show discovery tips again" = "ไม่แสดงคำแนะนำคุณสมบัติอีก";
 "Done" = "เสร็จแล้ว";
-"Don’t check for updates periodically" = "ไม่ตรวจหาอัปเดตเป็นระยะ";
-"Don’t send" = "ไม่ส่ง";
 "During your trial" = "ระหว่างช่วงทดลองใช้";
 "e.g. com.example.app" = "เช่น com.example.app";
 "e.g. Debug" = "เช่น Debug";
@@ -180,7 +170,6 @@
 "Multiple screens" = "หลายหน้าจอ";
 "My Account" = "บัญชีของฉัน";
 "Never" = "ไม่เคย";
-"Never send crash reports" = "ไม่ส่งรายงานการขัดข้อง";
 "Next" = "ถัดไป";
 "No response from server." = "ไม่มีการตอบกลับจากเซิร์ฟเวอร์";
 "No Window" = "ไม่มีหน้าต่าง";
@@ -222,9 +211,7 @@
 "Red badge" = "ป้ายกำกับสีแดง";
 "Red badge with number %@" = "ป้ายกำกับสีแดงที่มีหมายเลข %@";
 "Reliable, fast window switching with high-quality thumbnails" = "การสลับหน้าต่างที่เชื่อถือได้และรวดเร็วด้วยภาพย่อคุณภาพสูง";
-"Remember my choice" = "จดจำตัวเลือกของฉัน";
 "Report a bug" = "รายงานข้อบกพร่อง";
-"Report on current version" = "รายงานเกี่ยวกับเวอร์ชันปัจจุบัน";
 "Reset settings and restart" = "รีเซ็ตการตั้งค่าและรีสตาร์ท";
 "Restart Now" = "รีสตาร์ททันที";
 "Safari — Food" = "Safari — อาหาร";
@@ -242,8 +229,6 @@
 "Select windows on mouse hover" = "เลือกหน้าต่างเมื่อชี้เมาส์";
 "Select windows using arrow keys" = "เลือกหน้าต่างโดยใช้ปุ่มลูกศร";
 "Select windows using vim keys" = "เลือกหน้าต่างโดยใช้ปุ่ม Vim";
-"Send" = "ส่ง";
-"Send a crash report?" = "ส่งรายงานการขัดข้องหรือไม่?";
 "Send feedback" = "ส่งคำติชม";
 "Settings imported" = "นำเข้าการตั้งค่าแล้ว";
 "Settings…" = "การตั้งค่า…";
@@ -315,8 +300,6 @@
 "Unlock the App Icons style with Pro" = "ปลดล็อกสไตล์ไอคอนแอปด้วย Pro";
 "Unlock the Titles style with Pro" = "ปลดล็อกสไตล์ชื่อด้วย Pro";
 "Up to 9 shortcuts" = "ทางลัดสูงสุด 9 ชุด";
-"Update now" = "อัปเดตทันที";
-"Updates policy" = "นโยบายการอัปเดต";
 "Usage" = "การใช้งาน";
 "Use App Icons" = "ใช้ไอคอนแอป";
 "Use Titles" = "ใช้ชื่อหน้าต่าง";
@@ -351,7 +334,6 @@
 "You can’t undo this action." = "คุณไม่สามารถเลิกทำการกระทำนี้ได้";
 "You may need to disable some conflicting system gestures" = "คุณอาจต้องปิดท่าทางของระบบบางอย่างที่ขัดแย้งกัน";
 "You reached for AltTab Pro this week" = "สัปดาห์นี้คุณลองใช้ AltTab Pro";
-"You're running v%1$@. v%2$@ is available. The bug you're seeing may already be fixed — please update first and check before reporting." = "คุณใช้งานเวอร์ชัน %1$@ อยู่ มีเวอร์ชัน %2$@ ให้ใช้งาน ข้อบกพร่องที่คุณเห็นอาจได้รับการแก้ไขแล้ว — โปรดอัปเดตก่อนและตรวจสอบก่อนรายงาน";
 "Your AltTab Pro trial has ended" = "ช่วงทดลองใช้ AltTab Pro สิ้นสุดแล้ว";
 "Your Pro trial starts when AltTab is ready" = "ช่วงทดลองใช้ Pro จะเริ่มเมื่อ AltTab พร้อมใช้งาน";
 "Your settings reset every time AltTab restarts." = "การตั้งค่าของคุณจะถูกรีเซ็ตทุกครั้งที่ AltTab เริ่มทำงานใหม่";

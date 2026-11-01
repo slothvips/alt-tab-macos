@@ -7,7 +7,6 @@
 "4-finger Horizontal Swipe" = "Scorrimento orizzontale a 4 dita";
 "4-finger Vertical Swipe" = "Scorrimento verticale a 4 dita";
 "A little time." = "Un attimo.";
-"A new version of AltTab is available" = "È disponibile una nuova versione di AltTab";
 "About %@" = "Informazioni su %@";
 "Accessibility" = "Accessibilità";
 "Activate" = "Attiva";
@@ -29,7 +28,6 @@
 "All Windows" = "Tutte le finestre";
 "Allowed" = "Consentito";
 "Alphabetical Order" = "Ordine alfabetico";
-"AltTab crashed last time you used it. Sending a crash report will help get the issue fixed" = "AltTab si è arrestato in modo anomalo l'ultima volta che l'hai usato. L'invio di un resoconto di arresti anomali aiuterà a risolvere il problema";
 "AltTab is ready" = "AltTab è pronto";
 "AltTab is running without Screen Recording permissions. %@ won’t show." = "AltTab è in esecuzione senza i permessi di Registrazione schermo. %@ non verranno mostrate.";
 "AltTab preferences file is a symlink. macOS doesn’t support symlink for preferences. Please use a valid file instead of a symlink here:" = "Il file delle impostazioni di AltTab è un collegamento simbolico. macOS non supporta i collegamenti simbolici per le impostazioni. Usa un file valido invece di un collegamento simbolico qui:";
@@ -40,7 +38,6 @@
 "AltTab requires this permission to show you pictures of each window." = "AltTab ha bisogno di questo permesso per mostrarti un'immagine di ogni finestra.";
 "AltTab will show if the window is currently minimized or fullscreen with a status icon." = "AltTab indicherà con un'icona di stato se la finestra è ridotta a icona o a tutto schermo.";
 "Always" = "Sempre";
-"Always send crash reports" = "Invia sempre i resoconti di arresti anomali";
 "and press" = "e premi";
 "Animations" = "Animazioni";
 "App Icons" = "Icone delle app";
@@ -55,11 +52,9 @@
 "Applies in other Appearances" = "Si applica negli altri Aspetti";
 "Arrow keys" = "Tasti freccia";
 "Arrow keys already assigned to other actions:\n%@" = "Tasti freccia già assegnati ad altre azioni:\n%@";
-"Ask whether to send crash reports" = "Chiedi se inviare i resoconti di arresti anomali";
 "Auto" = "Automatico";
 "Auto Size" = "Dimensione automatica";
 "Auto Size — larger previews with few windows, more at once with many" = "Dimensione automatica — anteprime più grandi con poche finestre, più contemporaneamente con molte";
-"Auto-install updates periodically" = "Installa automaticamente gli aggiornamenti";
 "Automatic activation failed" = "Attivazione automatica non riuscita";
 "Breakfast" = "Colazione";
 "Brief description of the bug" = "Breve descrizione del bug";
@@ -67,8 +62,6 @@
 "Bundle ID" = "Bundle ID";
 "Cancel" = "Annulla";
 "Capture windows in the background" = "Cattura finestre in background";
-"Check for updates periodically" = "Cerca aggiornamenti periodicamente";
-"Check for updates…" = "Cerca aggiornamenti…";
 "Check permissions…" = "Controlla i permessi…";
 "Choose a style" = "Scegli uno stile";
 "Choose which windows to switch between" = "Scegli tra quali finestre passare";
@@ -81,7 +74,6 @@
 "Could not move to Applications folder" = "Impossibile spostare nella cartella Applicazioni";
 "Couldn't deactivate that machine" = "Impossibile disattivare quel dispositivo";
 "Couldn't save your license to the macOS Keychain. Please share the details below with the developer." = "Impossibile salvare la tua licenza nel Portachiavi di macOS. Condividi i dettagli qui sotto con lo sviluppatore.";
-"Crash reports policy" = "Politica dei resoconti di arresti anomali";
 "Create GitHub issue" = "Crea ticket GitHub";
 "Cursor follows focus" = "Il cursore segue il focus";
 "Customize more…" = "Personalizza di più…";
@@ -101,8 +93,6 @@
 "Don't mention again" = "Non parlarne più";
 "Don't show discovery tips again" = "Non mostrare più suggerimenti sulle funzioni";
 "Done" = "Fine";
-"Don’t check for updates periodically" = "Non cercare aggiornamenti periodicamente";
-"Don’t send" = "Non inviare";
 "During your trial" = "Durante la prova";
 "e.g. com.example.app" = "es. com.example.app";
 "e.g. Debug" = "es. Debug";
@@ -180,7 +170,6 @@
 "Multiple screens" = "Più schermi";
 "My Account" = "Il mio account";
 "Never" = "Mai";
-"Never send crash reports" = "Non inviare mai i resoconti di arresti anomali";
 "Next" = "Prossimo";
 "No response from server." = "Nessuna risposta dal server.";
 "No Window" = "Nessuna finestra";
@@ -222,9 +211,7 @@
 "Red badge" = "Badge rosso";
 "Red badge with number %@" = "Badge rosso con il numero %@";
 "Reliable, fast window switching with high-quality thumbnails" = "Cambio di finestra affidabile e veloce con miniature di alta qualità";
-"Remember my choice" = "Ricorda la mia scelta";
 "Report a bug" = "Segnala un bug";
-"Report on current version" = "Segnala sulla versione attuale";
 "Reset settings and restart" = "Ripristina impostazioni e riavvia";
 "Restart Now" = "Riavvia ora";
 "Safari — Food" = "Safari — Cucina";
@@ -242,8 +229,6 @@
 "Select windows on mouse hover" = "Seleziona la finestra al passaggio del mouse";
 "Select windows using arrow keys" = "Seleziona la finestra con i tasti freccia";
 "Select windows using vim keys" = "Seleziona la finestra con i tasti Vim";
-"Send" = "Invia";
-"Send a crash report?" = "Inviare un resoconto di arresti anomali?";
 "Send feedback" = "Invia feedback";
 "Settings imported" = "Impostazioni importate";
 "Settings…" = "Impostazioni…";
@@ -315,8 +300,6 @@
 "Unlock the App Icons style with Pro" = "Sblocca lo stile Icone delle app con Pro";
 "Unlock the Titles style with Pro" = "Sblocca lo stile Titoli con Pro";
 "Up to 9 shortcuts" = "Fino a 9 scorciatoie";
-"Update now" = "Aggiorna ora";
-"Updates policy" = "Politica degli aggiornamenti";
 "Usage" = "Utilizzo";
 "Use App Icons" = "Usa le icone delle app";
 "Use Titles" = "Usa i titoli";
@@ -351,7 +334,6 @@
 "You can’t undo this action." = "Non puoi annullare questa azione.";
 "You may need to disable some conflicting system gestures" = "Potrebbe essere necessario disabilitare alcuni gesti di sistema in conflitto";
 "You reached for AltTab Pro this week" = "Questa settimana hai cercato AltTab Pro";
-"You're running v%1$@. v%2$@ is available. The bug you're seeing may already be fixed — please update first and check before reporting." = "Stai usando la v%1$@. La v%2$@ è disponibile. Il bug che vedi potrebbe essere già stato risolto — aggiorna prima e controlla prima di segnalarlo.";
 "Your AltTab Pro trial has ended" = "La prova di AltTab Pro è terminata";
 "Your Pro trial starts when AltTab is ready" = "La prova di Pro inizia quando AltTab è pronto";
 "Your settings reset every time AltTab restarts." = "Le tue impostazioni si reimpostano a ogni riavvio di AltTab.";

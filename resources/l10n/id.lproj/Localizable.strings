@@ -7,7 +7,6 @@
 "4-finger Horizontal Swipe" = "Gesek Horizontal 4 Jari";
 "4-finger Vertical Swipe" = "Gesek Vertikal 4 Jari";
 "A little time." = "Sejenak.";
-"A new version of AltTab is available" = "Versi baru AltTab tersedia";
 "About %@" = "Tentang %@";
 "Accessibility" = "Aksesibilitas";
 "Activate" = "Aktifkan";
@@ -29,7 +28,6 @@
 "All Windows" = "Semua Jendela";
 "Allowed" = "Diizinkan";
 "Alphabetical Order" = "Urutan Abjad";
-"AltTab crashed last time you used it. Sending a crash report will help get the issue fixed" = "AltTab mengalami kerusakan saat terakhir kali Anda menggunakannya. Mengirim laporan kerusakan akan membantu memperbaiki masalah";
 "AltTab is ready" = "AltTab sudah siap";
 "AltTab is running without Screen Recording permissions. %@ won’t show." = "AltTab berjalan tanpa izin Perekaman Layar. %@ tidak akan ditampilkan.";
 "AltTab preferences file is a symlink. macOS doesn’t support symlink for preferences. Please use a valid file instead of a symlink here:" = "Berkas preferensi AltTab adalah tautan simbolik. macOS tidak mendukung tautan simbolik untuk preferensi. Harap gunakan berkas yang valid alih-alih tautan simbolik di sini:";
@@ -40,7 +38,6 @@
 "AltTab requires this permission to show you pictures of each window." = "AltTab memerlukan izin ini untuk menampilkan gambar setiap jendela.";
 "AltTab will show if the window is currently minimized or fullscreen with a status icon." = "AltTab akan menampilkan ikon status jika jendela saat ini diminimalkan atau dalam layar penuh.";
 "Always" = "Selalu";
-"Always send crash reports" = "Selalu kirim laporan kerusakan";
 "and press" = "lalu tekan";
 "Animations" = "Animasi";
 "App Icons" = "Ikon Aplikasi";
@@ -55,11 +52,9 @@
 "Applies in other Appearances" = "Berlaku pada Tampilan lain";
 "Arrow keys" = "Tombol panah";
 "Arrow keys already assigned to other actions:\n%@" = "Tombol panah sudah ditetapkan untuk tindakan lain:\n%@";
-"Ask whether to send crash reports" = "Tanya apakah akan mengirim laporan kerusakan";
 "Auto" = "Otomatis";
 "Auto Size" = "Ukuran Otomatis";
 "Auto Size — larger previews with few windows, more at once with many" = "Ukuran Otomatis — pratinjau lebih besar saat jendela sedikit, lebih banyak sekaligus saat jendela banyak";
-"Auto-install updates periodically" = "Pasang pembaruan otomatis secara berkala";
 "Automatic activation failed" = "Aktivasi otomatis gagal";
 "Breakfast" = "Sarapan";
 "Brief description of the bug" = "Deskripsi singkat tentang bug";
@@ -67,8 +62,6 @@
 "Bundle ID" = "Bundle ID";
 "Cancel" = "Batal";
 "Capture windows in the background" = "Tangkap jendela di latar belakang";
-"Check for updates periodically" = "Periksa pembaruan secara berkala";
-"Check for updates…" = "Periksa pembaruan…";
 "Check permissions…" = "Periksa izin…";
 "Choose a style" = "Pilih gaya";
 "Choose which windows to switch between" = "Pilih jendela yang ingin Anda alihkan";
@@ -81,7 +74,6 @@
 "Could not move to Applications folder" = "Tidak dapat memindahkan ke folder Aplikasi";
 "Couldn't deactivate that machine" = "Tidak dapat menonaktifkan mesin tersebut";
 "Couldn't save your license to the macOS Keychain. Please share the details below with the developer." = "Tidak dapat menyimpan lisensi Anda ke Rantai Kunci macOS. Bagikan detail di bawah ini kepada pengembang.";
-"Crash reports policy" = "Kebijakan laporan kerusakan";
 "Create GitHub issue" = "Buat isu GitHub";
 "Cursor follows focus" = "Kursor mengikuti fokus";
 "Customize more…" = "Sesuaikan lebih lanjut…";
@@ -101,8 +93,6 @@
 "Don't mention again" = "Jangan sebutkan lagi";
 "Don't show discovery tips again" = "Jangan tampilkan tips fitur lagi";
 "Done" = "Selesai";
-"Don’t check for updates periodically" = "Jangan periksa pembaruan secara berkala";
-"Don’t send" = "Jangan kirim";
 "During your trial" = "Selama masa uji coba";
 "e.g. com.example.app" = "mis. com.example.app";
 "e.g. Debug" = "mis. Debug";
@@ -180,7 +170,6 @@
 "Multiple screens" = "Beberapa layar";
 "My Account" = "Akun Saya";
 "Never" = "Tidak Pernah";
-"Never send crash reports" = "Jangan pernah kirim laporan kerusakan";
 "Next" = "Berikutnya";
 "No response from server." = "Tidak ada respons dari server.";
 "No Window" = "Tanpa Jendela";
@@ -222,9 +211,7 @@
 "Red badge" = "Lencana merah";
 "Red badge with number %@" = "Lencana merah dengan angka %@";
 "Reliable, fast window switching with high-quality thumbnails" = "Pengalihan jendela yang andal dan cepat dengan gambar mini berkualitas tinggi";
-"Remember my choice" = "Ingat pilihan saya";
 "Report a bug" = "Laporkan bug";
-"Report on current version" = "Laporkan pada versi saat ini";
 "Reset settings and restart" = "Setel ulang pengaturan dan mulai ulang";
 "Restart Now" = "Mulai Ulang Sekarang";
 "Safari — Food" = "Safari — Makanan";
@@ -242,8 +229,6 @@
 "Select windows on mouse hover" = "Pilih jendela saat kursor diarahkan";
 "Select windows using arrow keys" = "Pilih jendela menggunakan tombol panah";
 "Select windows using vim keys" = "Pilih jendela menggunakan tombol Vim";
-"Send" = "Kirim";
-"Send a crash report?" = "Kirim laporan kerusakan?";
 "Send feedback" = "Kirim masukan";
 "Settings imported" = "Pengaturan diimpor";
 "Settings…" = "Pengaturan…";
@@ -315,8 +300,6 @@
 "Unlock the App Icons style with Pro" = "Buka gaya Ikon Aplikasi dengan Pro";
 "Unlock the Titles style with Pro" = "Buka gaya Judul dengan Pro";
 "Up to 9 shortcuts" = "Hingga 9 pintasan";
-"Update now" = "Perbarui sekarang";
-"Updates policy" = "Kebijakan pembaruan";
 "Usage" = "Penggunaan";
 "Use App Icons" = "Gunakan ikon aplikasi";
 "Use Titles" = "Gunakan judul";
@@ -351,7 +334,6 @@
 "You can’t undo this action." = "Anda tidak dapat membatalkan tindakan ini.";
 "You may need to disable some conflicting system gestures" = "Anda mungkin perlu menonaktifkan beberapa gestur sistem yang bertentangan";
 "You reached for AltTab Pro this week" = "Anda mencoba AltTab Pro minggu ini";
-"You're running v%1$@. v%2$@ is available. The bug you're seeing may already be fixed — please update first and check before reporting." = "Anda menjalankan v%1$@. v%2$@ tersedia. Bug yang Anda lihat mungkin sudah diperbaiki — harap perbarui dulu dan periksa sebelum melaporkan.";
 "Your AltTab Pro trial has ended" = "Masa uji coba AltTab Pro Anda berakhir";
 "Your Pro trial starts when AltTab is ready" = "Uji coba Pro dimulai saat AltTab siap digunakan";
 "Your settings reset every time AltTab restarts." = "Pengaturan Anda diatur ulang setiap kali AltTab dimulai ulang.";

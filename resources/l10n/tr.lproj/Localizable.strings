@@ -7,7 +7,6 @@
 "4-finger Horizontal Swipe" = "4 parmakla yatay kaydırma";
 "4-finger Vertical Swipe" = "4 parmakla dikey kaydırma";
 "A little time." = "Bir an.";
-"A new version of AltTab is available" = "AltTab’ın yeni bir sürümü mevcut";
 "About %@" = "%@ hakkında";
 "Accessibility" = "Erişilebilirlik";
 "Activate" = "Etkinleştir";
@@ -29,7 +28,6 @@
 "All Windows" = "Tüm Pencereler";
 "Allowed" = "İzin verildi";
 "Alphabetical Order" = "Alfabetik sıra";
-"AltTab crashed last time you used it. Sending a crash report will help get the issue fixed" = "AltTab en son kullandığınızda çöktü. Bir çökme raporu göndermek sorunun düzeltilmesine yardımcı olacaktır";
 "AltTab is ready" = "AltTab hazır";
 "AltTab is running without Screen Recording permissions. %@ won’t show." = "AltTab, Ekran Kaydı izinleri olmadan çalışıyor. %@ gösterilmeyecek.";
 "AltTab preferences file is a symlink. macOS doesn’t support symlink for preferences. Please use a valid file instead of a symlink here:" = "AltTab tercih dosyası bir sembolik bağlantı. macOS, tercihler için sembolik bağlantıları desteklemez. Lütfen burada sembolik bağlantı yerine geçerli bir dosya kullanın:";
@@ -40,7 +38,6 @@
 "AltTab requires this permission to show you pictures of each window." = "AltTab'in size her pencerenin görüntüsünü göstermesi için bu izin gerekir.";
 "AltTab will show if the window is currently minimized or fullscreen with a status icon." = "AltTab, pencerenin şu anda küçültülmüş veya tam ekran olduğunu bir durum simgesiyle gösterir.";
 "Always" = "Her zaman";
-"Always send crash reports" = "Çökme raporlarını her zaman gönder";
 "and press" = "ve basın";
 "Animations" = "Animasyonlar";
 "App Icons" = "Uygulama simgeleri";
@@ -55,11 +52,9 @@
 "Applies in other Appearances" = "Diğer Görünümlerde uygulanır";
 "Arrow keys" = "Ok tuşları";
 "Arrow keys already assigned to other actions:\n%@" = "Ok tuşları zaten başka eylemlere atanmış:\n%@";
-"Ask whether to send crash reports" = "Çökme raporlarının gönderilip gönderilmeyeceğini sor";
 "Auto" = "Otomatik";
 "Auto Size" = "Otomatik Boyut";
 "Auto Size — larger previews with few windows, more at once with many" = "Otomatik Boyut — az pencerede büyük önizlemeler, çok pencerede aynı anda daha fazlası";
-"Auto-install updates periodically" = "Güncellemeleri düzenli olarak otomatik yükle";
 "Automatic activation failed" = "Otomatik etkinleştirme başarısız";
 "Breakfast" = "Kahvaltı";
 "Brief description of the bug" = "Hatanın kısa açıklaması";
@@ -67,8 +62,6 @@
 "Bundle ID" = "Bundle ID";
 "Cancel" = "İptal";
 "Capture windows in the background" = "Pencereleri arka planda yakala";
-"Check for updates periodically" = "Güncellemeleri düzenli olarak denetle";
-"Check for updates…" = "Güncellemeleri denetle…";
 "Check permissions…" = "İzinleri denetle…";
 "Choose a style" = "Bir stil seçin";
 "Choose which windows to switch between" = "Hangi pencereler arasında geçiş yapacağınızı seçin";
@@ -81,7 +74,6 @@
 "Could not move to Applications folder" = "Uygulamalar klasörüne taşınamadı";
 "Couldn't deactivate that machine" = "Bu makine devre dışı bırakılamadı";
 "Couldn't save your license to the macOS Keychain. Please share the details below with the developer." = "Lisansınız macOS Anahtar Zinciri’ne kaydedilemedi. Aşağıdaki ayrıntıları geliştiriciyle paylaşın.";
-"Crash reports policy" = "Çökme raporları ilkesi";
 "Create GitHub issue" = "GitHub konusu oluştur";
 "Cursor follows focus" = "İmleç odağı izler";
 "Customize more…" = "Daha fazla özelleştir…";
@@ -101,8 +93,6 @@
 "Don't mention again" = "Bir daha bahsetme";
 "Don't show discovery tips again" = "Özellik ipuçlarını bir daha gösterme";
 "Done" = "Tamam";
-"Don’t check for updates periodically" = "Güncellemeleri düzenli olarak denetleme";
-"Don’t send" = "Gönderme";
 "During your trial" = "Deneme süreniz boyunca";
 "e.g. com.example.app" = "örn. com.example.app";
 "e.g. Debug" = "örn. Debug";
@@ -180,7 +170,6 @@
 "Multiple screens" = "Birden çok ekran";
 "My Account" = "Hesabım";
 "Never" = "Asla";
-"Never send crash reports" = "Çökme raporlarını asla gönderme";
 "Next" = "Sıradaki";
 "No response from server." = "Sunucudan yanıt yok.";
 "No Window" = "Pencere Yok";
@@ -222,9 +211,7 @@
 "Red badge" = "Kırmızı işaret";
 "Red badge with number %@" = "%@ sayılı kırmızı işaret";
 "Reliable, fast window switching with high-quality thumbnails" = "Yüksek kaliteli küçük resimlerle güvenilir, hızlı pencere değiştirme";
-"Remember my choice" = "Seçimimi hatırla";
 "Report a bug" = "Hata bildir";
-"Report on current version" = "Mevcut sürümde bildir";
 "Reset settings and restart" = "Ayarları sıfırla ve yeniden başlat";
 "Restart Now" = "Şimdi Yeniden Başlat";
 "Safari — Food" = "Safari — Yemek";
@@ -242,8 +229,6 @@
 "Select windows on mouse hover" = "Fare üzerine geldiğinde pencereleri seç";
 "Select windows using arrow keys" = "Pencereleri ok tuşlarıyla seç";
 "Select windows using vim keys" = "Pencereleri Vim tuşlarıyla seç";
-"Send" = "Gönder";
-"Send a crash report?" = "Çökme raporu gönderilsin mi?";
 "Send feedback" = "Geri bildirim gönder";
 "Settings imported" = "Ayarlar içe aktarıldı";
 "Settings…" = "Ayarlar…";
@@ -315,8 +300,6 @@
 "Unlock the App Icons style with Pro" = "Pro ile Uygulama simgeleri stilinin kilidini açın";
 "Unlock the Titles style with Pro" = "Pro ile Başlıklar stilinin kilidini açın";
 "Up to 9 shortcuts" = "En fazla 9 kısayol";
-"Update now" = "Şimdi güncelle";
-"Updates policy" = "Güncelleme ilkesi";
 "Usage" = "Kullanım";
 "Use App Icons" = "Uygulama simgelerini kullan";
 "Use Titles" = "Başlıkları kullan";
@@ -351,7 +334,6 @@
 "You can’t undo this action." = "Bu eylemi geri alamazsınız.";
 "You may need to disable some conflicting system gestures" = "Çakışan bazı sistem hareketlerini devre dışı bırakmanız gerekebilir";
 "You reached for AltTab Pro this week" = "Bu hafta AltTab Pro'ya ihtiyaç duydunuz";
-"You're running v%1$@. v%2$@ is available. The bug you're seeing may already be fixed — please update first and check before reporting." = "v%1$@ sürümünü çalıştırıyorsunuz. v%2$@ mevcut. Gördüğünüz hata zaten düzeltilmiş olabilir — bildirmeden önce lütfen güncelleyip denetleyin.";
 "Your AltTab Pro trial has ended" = "AltTab Pro deneme süreniz sona erdi";
 "Your Pro trial starts when AltTab is ready" = "Pro denemeniz AltTab hazır olduğunda başlar";
 "Your settings reset every time AltTab restarts." = "Ayarların her AltTab yeniden başlatıldığında sıfırlanıyor.";

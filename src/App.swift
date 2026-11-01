@@ -1,9 +1,8 @@
 import Cocoa
 import Darwin
 import ShortcutRecorder
-import Sparkle
 
-class App: AppCenterApplication {
+class App: NSApplication {
     /// Held for the process lifetime. `static let` is lazy, so `init` has to touch it or App Nap is never
     /// disabled.
     private static let activity = ProcessInfo.processInfo.beginActivity(options: .userInitiatedAllowingIdleSystemSleep,
@@ -31,11 +30,6 @@ class App: AppCenterApplication {
     private static let launchInventoryGraceInMs = 400
     private static var pendingShowSettingsWindow = false
     private static var firstLaunchSettingsObserver: NSObjectProtocol?
-    /// Never set in this build: no Sparkle updater is created, so nothing fetches an appcast, downloads an
-    /// update, or sends a crash report. Both stay optional because the debug tooling and the feedback window
-    /// still read them and fall back to an offline path when they are nil.
-    static var sparkleDelegate: SparkleDelegate?
-    static var updaterController: SPUStandardUpdaterController?
     private static var delayedDisplayWork: DispatchWorkItem?
     private static let switcherUiRepaintCoalescer = RepaintCoalescer()
 
@@ -160,8 +154,7 @@ class App: AppCenterApplication {
     @objc static func showFeedbackPanel() {
         let wasFresh = FeedbackWindow.shared == nil
         initializeFeedbackWindowIfNeeded()
-        // Fresh init already runs reset(); skip the redundant second call so we don't
-        // double-fire the Sparkle preflight on the first ever open.
+        // Fresh init already runs reset(); skip the redundant second call on the first ever open.
         if !wasFresh { FeedbackWindow.shared?.reset() }
         showSecondaryWindow(FeedbackWindow.shared!)
     }
@@ -566,9 +559,7 @@ class App: AppCenterApplication {
         // Needs the AX runloop `BackgroundWork.start()` created, so it cannot go with the launch-time setup.
         AxObserverRegistry.shared.startRecoveryTicks()
         CliEvents.observe()
-        // No updater and no crash reporter: both are the app's only remaining network clients, and this
-        // build makes no outbound connections at all. `App.updaterController` stays nil, which every caller
-        // already treats as "no update available".
+        // No updater and no crash reporter are linked into this build, so nothing here opens a connection.
         PreferencesEvents.initialize()
         #if DEBUG
         BenchmarkRunner.startIfNeeded()
@@ -657,7 +648,6 @@ extension App: NSApplicationDelegate {
         LicenseManager.shared.onStateChanged = { state in
             Menubar.refreshLicenseMenuItems()
             if !LicenseManager.shared.isMocked {
-                syncLicenseCookie(state: state)
                 ProTransitionManager.shared.onLicenseStateChanged()
             }
             UpgradeTab.refreshStatus()
