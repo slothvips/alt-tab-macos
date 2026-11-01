@@ -6,7 +6,6 @@
 "3-finger Vertical Swipe" = "3 parmakla dikey kaydırma";
 "4-finger Horizontal Swipe" = "4 parmakla yatay kaydırma";
 "4-finger Vertical Swipe" = "4 parmakla dikey kaydırma";
-"A debug profile (versions, settings, hardware) is attached to help diagnose the issue." = "Sorunun tanılanmasına yardımcı olmak için bir hata ayıklama profili (sürümler, ayarlar, donanım) eklendi.";
 "A little time." = "Bir an.";
 "A new version of AltTab is available" = "AltTab’ın yeni bir sürümü mevcut";
 "About %@" = "%@ hakkında";
@@ -68,7 +67,6 @@
 "Bundle ID" = "Bundle ID";
 "Cancel" = "İptal";
 "Capture windows in the background" = "Pencereleri arka planda yakala";
-"Check for updates now…" = "Şimdi güncellemeleri denetle…";
 "Check for updates periodically" = "Güncellemeleri düzenli olarak denetle";
 "Check for updates…" = "Güncellemeleri denetle…";
 "Check permissions…" = "İzinleri denetle…";
@@ -83,7 +81,6 @@
 "Could not move to Applications folder" = "Uygulamalar klasörüne taşınamadı";
 "Couldn't deactivate that machine" = "Bu makine devre dışı bırakılamadı";
 "Couldn't save your license to the macOS Keychain. Please share the details below with the developer." = "Lisansınız macOS Anahtar Zinciri’ne kaydedilemedi. Aşağıdaki ayrıntıları geliştiriciyle paylaşın.";
-"Couldn't submit feedback" = "Geri bildirim gönderilemedi";
 "Crash reports policy" = "Çökme raporları ilkesi";
 "Create GitHub issue" = "GitHub konusu oluştur";
 "Cursor follows focus" = "İmleç odağı izler";
@@ -248,7 +245,6 @@
 "Send" = "Gönder";
 "Send a crash report?" = "Çökme raporu gönderilsin mi?";
 "Send feedback" = "Geri bildirim gönder";
-"Sending…" = "Gönderiliyor…";
 "Settings imported" = "Ayarlar içe aktarıldı";
 "Settings…" = "Ayarlar…";
 "Shopping" = "Alışveriş";
@@ -292,7 +288,6 @@
 "That's it" = "İşte bu kadar";
 "The application needs to restart to apply the imported settings." = "İçe aktarılan ayarları uygulamak için uygulamanın yeniden başlatılması gerekiyor.";
 "The application needs to restart to apply the language change." = "Dil değişikliğini uygulamak için uygulamanın yeniden başlatılması gerekiyor.";
-"The server didn't accept the submission. Check your internet connection and try again — your draft is preserved." = "Sunucu gönderimi kabul etmedi. İnternet bağlantınızı denetleyip yeniden deneyin — taslağınız korunuyor.";
 "Theme" = "Tema";
 "This license is already activated elsewhere" = "Bu lisans başka bir yerde zaten etkinleştirilmiş";
 "This license is already activated on the maximum number of machines. Deactivate one to continue." = "Bu lisans azami sayıda makinede zaten etkinleştirilmiş. Devam etmek için birini devre dışı bırakın.";
@@ -358,6 +353,5 @@
 "You reached for AltTab Pro this week" = "Bu hafta AltTab Pro'ya ihtiyaç duydunuz";
 "You're running v%1$@. v%2$@ is available. The bug you're seeing may already be fixed — please update first and check before reporting." = "v%1$@ sürümünü çalıştırıyorsunuz. v%2$@ mevcut. Gördüğünüz hata zaten düzeltilmiş olabilir — bildirmeden önce lütfen güncelleyip denetleyin.";
 "Your AltTab Pro trial has ended" = "AltTab Pro deneme süreniz sona erdi";
-"Your feedback will be submitted as a public GitHub issue." = "Geri bildiriminiz herkese açık bir GitHub konusu olarak gönderilecek.";
 "Your Pro trial starts when AltTab is ready" = "Pro denemeniz AltTab hazır olduğunda başlar";
 "Your settings reset every time AltTab restarts." = "Ayarların her AltTab yeniden başlatıldığında sıfırlanıyor.";

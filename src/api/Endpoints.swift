@@ -8,7 +8,6 @@ enum Endpoints {
     static let supportUrl = "\(website)/support"
     static let accountUrl = "\(website)/my-account"
     static let licenseApiBaseUrl = "https://\(apiDomain)/v1/license"
-    static let feedbackUrl = "https://\(apiDomain)/v1/feedback"
 
     /// `?via=` is the trial day, a dash, then the origin's code (day 35 from the Day 35 window → `35-a6`), so the day
     /// reads as-is in raw logs. Without a trial day it's the origin code alone. The website splits the two apart.

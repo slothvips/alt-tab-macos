@@ -6,7 +6,6 @@
 "3-finger Vertical Swipe" = "3 本指の垂直スワイプ";
 "4-finger Horizontal Swipe" = "4 本指の水平スワイプ";
 "4-finger Vertical Swipe" = "4 本指の垂直スワイプ";
-"A debug profile (versions, settings, hardware) is attached to help diagnose the issue." = "問題の診断に役立てるため、デバッグ情報(バージョン、設定、ハードウェア)を添付しています。";
 "A little time." = "ひと手間。";
 "A new version of AltTab is available" = "AltTab の新しいバージョンが利用可能です";
 "About %@" = "%@ について";
@@ -68,7 +67,6 @@
 "Bundle ID" = "Bundle ID";
 "Cancel" = "キャンセル";
 "Capture windows in the background" = "バックグラウンドでウインドウをキャプチャ";
-"Check for updates now…" = "今すぐアップデートを確認…";
 "Check for updates periodically" = "アップデートを定期的に確認";
 "Check for updates…" = "アップデートを確認…";
 "Check permissions…" = "権限を確認…";
@@ -83,7 +81,6 @@
 "Could not move to Applications folder" = "アプリケーションフォルダに移動できませんでした";
 "Couldn't deactivate that machine" = "そのマシンを非アクティブ化できませんでした";
 "Couldn't save your license to the macOS Keychain. Please share the details below with the developer." = "ライセンスを macOS キーチェーンに保存できませんでした。以下の詳細を開発者に共有してください。";
-"Couldn't submit feedback" = "フィードバックを送信できませんでした";
 "Crash reports policy" = "クラッシュレポートのポリシー";
 "Create GitHub issue" = "GitHub Issue を作成";
 "Cursor follows focus" = "カーソルがフォーカスに従う";
@@ -248,7 +245,6 @@
 "Send" = "送信";
 "Send a crash report?" = "クラッシュレポートを送信しますか?";
 "Send feedback" = "フィードバックを送信";
-"Sending…" = "送信中…";
 "Settings imported" = "設定を読み込みました";
 "Settings…" = "設定…";
 "Shopping" = "買い物";
@@ -292,7 +288,6 @@
 "That's it" = "完了です";
 "The application needs to restart to apply the imported settings." = "読み込んだ設定を適用するには App を再起動する必要があります。";
 "The application needs to restart to apply the language change." = "言語の変更を適用するには App を再起動する必要があります。";
-"The server didn't accept the submission. Check your internet connection and try again — your draft is preserved." = "サーバーが送信を受け付けませんでした。インターネット接続を確認して再度お試しください — 下書きは保存されています。";
 "Theme" = "テーマ";
 "This license is already activated elsewhere" = "このライセンスは別のマシンですでにアクティベートされています";
 "This license is already activated on the maximum number of machines. Deactivate one to continue." = "このライセンスは最大数のマシンですでにアクティベートされています。続行するには 1 台を非アクティブ化してください。";
@@ -358,6 +353,5 @@
 "You reached for AltTab Pro this week" = "今週、AltTab Pro の機能を使おうとしました";
 "You're running v%1$@. v%2$@ is available. The bug you're seeing may already be fixed — please update first and check before reporting." = "現在のバージョンは v%1$@ です。v%2$@ が利用可能です。発生している不具合はすでに修正されている可能性があります — 報告前にまずアップデートしてご確認ください。";
 "Your AltTab Pro trial has ended" = "AltTab Pro のトライアルが終了しました";
-"Your feedback will be submitted as a public GitHub issue." = "フィードバックは公開の GitHub Issue として送信されます。";
 "Your Pro trial starts when AltTab is ready" = "AltTabが使えるようになるとProの試用期間が始まります";
 "Your settings reset every time AltTab restarts." = "AltTab を再起動するたびに設定がリセットされます。";

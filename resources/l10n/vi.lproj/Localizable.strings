@@ -6,7 +6,6 @@
 "3-finger Vertical Swipe" = "Vuốt dọc 3 ngón tay";
 "4-finger Horizontal Swipe" = "Vuốt ngang 4 ngón tay";
 "4-finger Vertical Swipe" = "Vuốt dọc 4 ngón tay";
-"A debug profile (versions, settings, hardware) is attached to help diagnose the issue." = "Hồ sơ gỡ lỗi (phiên bản, cài đặt, phần cứng) được đính kèm để giúp chẩn đoán sự cố.";
 "A little time." = "Một lát.";
 "A new version of AltTab is available" = "Đã có phiên bản mới của AltTab";
 "About %@" = "Giới thiệu về %@";
@@ -68,7 +67,6 @@
 "Bundle ID" = "Bundle ID";
 "Cancel" = "Hủy";
 "Capture windows in the background" = "Chụp cửa sổ ở chế độ nền";
-"Check for updates now…" = "Kiểm tra cập nhật ngay…";
 "Check for updates periodically" = "Kiểm tra cập nhật định kỳ";
 "Check for updates…" = "Kiểm tra cập nhật…";
 "Check permissions…" = "Kiểm tra quyền…";
@@ -83,7 +81,6 @@
 "Could not move to Applications folder" = "Không thể di chuyển vào thư mục Ứng dụng";
 "Couldn't deactivate that machine" = "Không thể hủy kích hoạt máy đó";
 "Couldn't save your license to the macOS Keychain. Please share the details below with the developer." = "Không thể lưu giấy phép của bạn vào Chuỗi khóa macOS. Vui lòng chia sẻ chi tiết bên dưới với nhà phát triển.";
-"Couldn't submit feedback" = "Không thể gửi phản hồi";
 "Crash reports policy" = "Chính sách báo cáo sự cố";
 "Create GitHub issue" = "Tạo issue trên GitHub";
 "Cursor follows focus" = "Con trỏ theo tiêu điểm";
@@ -248,7 +245,6 @@
 "Send" = "Gửi";
 "Send a crash report?" = "Gửi báo cáo sự cố?";
 "Send feedback" = "Gửi phản hồi";
-"Sending…" = "Đang gửi…";
 "Settings imported" = "Đã nhập cài đặt";
 "Settings…" = "Cài đặt…";
 "Shopping" = "Mua sắm";
@@ -292,7 +288,6 @@
 "That's it" = "Xong rồi";
 "The application needs to restart to apply the imported settings." = "Ứng dụng cần khởi động lại để áp dụng cài đặt đã nhập.";
 "The application needs to restart to apply the language change." = "Ứng dụng cần khởi động lại để áp dụng thay đổi ngôn ngữ.";
-"The server didn't accept the submission. Check your internet connection and try again — your draft is preserved." = "Máy chủ không chấp nhận bản gửi. Vui lòng kiểm tra kết nối internet và thử lại — bản nháp của bạn được giữ lại.";
 "Theme" = "Chủ đề";
 "This license is already activated elsewhere" = "Giấy phép này đã được kích hoạt ở nơi khác";
 "This license is already activated on the maximum number of machines. Deactivate one to continue." = "Giấy phép này đã được kích hoạt trên số máy tối đa. Hãy hủy kích hoạt một máy để tiếp tục.";
@@ -358,6 +353,5 @@
 "You reached for AltTab Pro this week" = "Tuần này bạn đã cần đến AltTab Pro";
 "You're running v%1$@. v%2$@ is available. The bug you're seeing may already be fixed — please update first and check before reporting." = "Bạn đang dùng v%1$@. v%2$@ đã có sẵn. Lỗi bạn đang gặp có thể đã được sửa — vui lòng cập nhật trước và kiểm tra lại trước khi báo cáo.";
 "Your AltTab Pro trial has ended" = "Thời gian dùng thử AltTab Pro đã kết thúc";
-"Your feedback will be submitted as a public GitHub issue." = "Phản hồi của bạn sẽ được gửi dưới dạng GitHub Issue công khai.";
 "Your Pro trial starts when AltTab is ready" = "Bản dùng thử Pro bắt đầu khi AltTab sẵn sàng";
 "Your settings reset every time AltTab restarts." = "Cài đặt của bạn bị đặt lại mỗi khi AltTab khởi động lại.";

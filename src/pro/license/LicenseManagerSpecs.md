@@ -38,7 +38,7 @@ Its collaborators are injected so the logic is testable without real I/O — the
 - **State is computed synchronously on `initialize()`** from defaults+keychain; async revalidation may then update it on the main queue.
 - **`onStateChanged`** fires on initialize and on every transition; **`onBeforeProUnlock`** fires *before* the state flips to `.pro` (so observers can snapshot pre-Pro state).
 - **QA license states are in-memory overlays.** `mockProUser()` and `mockTrialDay()` are `#if DEBUG` only and never read, clear, or write the user's Keychain and license defaults. Refreshing state keeps the overlay until relaunch; a mocked trial still follows the clock, so it expires like a real one.
-- **Crack build: `forcesPro` overrides everything.** The crack branch sets `forcesPro` on `LicenseManager.shared` only, so the production singleton resolves `.pro` and grants every Pro gate regardless of the trial clock, keychain contents, or a server answer. It also short-circuits revalidation, whose invalid branch assigns `.trialExpired` directly rather than through `computeState()`. Instances built with injected collaborators (all tests) leave it `false` and keep the documented behaviour below.
+- **Crack build: `forcesPro` overrides everything.** The crack branch sets `forcesPro` on `LicenseManager.shared` only, so the production singleton resolves `.pro` and grants every Pro gate regardless of the trial clock, keychain contents, or a server answer. It also short-circuits revalidation and the three licensing calls, so no request is ever sent (revalidation's invalid branch assigns `.trialExpired` directly rather than through `computeState()`). Instances built with injected collaborators (all tests) leave it `false` and keep the documented behaviour below.
 - **A running app notices the end of the trial.** `state` follows the clock only on `refreshState()`. `trialEndedSinceLastRefresh` tells the Pro-transition coordinator that a `.trial` state has outlived `trialEndDate`, so it can refresh at a quiet moment (`ProTransitionSpecs.md`).
 
 ---
@@ -114,6 +114,7 @@ Mirrors `LicenseManagerTests.swift` 1:1. Each test uses an isolated `UserDefault
 
 ### J. Crack build
 - **testForcedProIgnoresTrialClockStoredLicenseAndRevalidation** — `forcesPro` → `.pro` and unlocked at initialize; an invalid validation answer never reaches the API nor downgrades; 400 days later `refreshState()` still resolves `.pro`.
+- **testForcedProNeverCallsTheLicenseAPI** — activate, deactivate and remote deactivation all fail synchronously with no API call, so the build makes no licensing request.
 
 ## Team licenses
 

@@ -6,7 +6,6 @@
 "3-finger Vertical Swipe" = "3-finger Vertical Swipe";
 "4-finger Horizontal Swipe" = "4-finger Horizontal Swipe";
 "4-finger Vertical Swipe" = "4-finger Vertical Swipe";
-"A debug profile (versions, settings, hardware) is attached to help diagnose the issue." = "A debug profile (versions, settings, hardware) is attached to help diagnose the issue.";
 "A little time." = "A little time.";
 "A new version of AltTab is available" = "A new version of AltTab is available";
 "About %@" = "About %@";
@@ -68,7 +67,6 @@
 "Bundle ID" = "Bundle ID";
 "Cancel" = "Cancel";
 "Capture windows in the background" = "Capture windows in the background";
-"Check for updates now…" = "Check for updates now…";
 "Check for updates periodically" = "Check for updates periodically";
 "Check for updates…" = "Check for updates…";
 "Check permissions…" = "Check permissions…";
@@ -83,7 +81,6 @@
 "Could not move to Applications folder" = "Could not move to Applications folder";
 "Couldn't deactivate that machine" = "Couldn't deactivate that machine";
 "Couldn't save your license to the macOS Keychain. Please share the details below with the developer." = "Couldn't save your license to the macOS Keychain. Please share the details below with the developer.";
-"Couldn't submit feedback" = "Couldn't submit feedback";
 "Crash reports policy" = "Crash reports policy";
 "Create GitHub issue" = "Create GitHub issue";
 "Cursor follows focus" = "Cursor follows focus";
@@ -248,7 +245,6 @@
 "Send" = "Send";
 "Send a crash report?" = "Send a crash report?";
 "Send feedback" = "Send feedback";
-"Sending…" = "Sending…";
 "Settings imported" = "Settings imported";
 "Settings…" = "Settings…";
 "Shopping" = "Shopping";
@@ -292,7 +288,6 @@
 "That's it" = "That's it";
 "The application needs to restart to apply the imported settings." = "The application needs to restart to apply the imported settings.";
 "The application needs to restart to apply the language change." = "The application needs to restart to apply the language change.";
-"The server didn't accept the submission. Check your internet connection and try again — your draft is preserved." = "The server didn't accept the submission. Check your internet connection and try again — your draft is preserved.";
 "Theme" = "Theme";
 "This license is already activated elsewhere" = "This license is already activated elsewhere";
 "This license is already activated on the maximum number of machines. Deactivate one to continue." = "This license is already activated on the maximum number of machines. Deactivate one to continue.";
@@ -358,6 +353,5 @@
 "You reached for AltTab Pro this week" = "You reached for AltTab Pro this week";
 "You're running v%1$@. v%2$@ is available. The bug you're seeing may already be fixed — please update first and check before reporting." = "You're running v%1$@. v%2$@ is available. The bug you're seeing may already be fixed — please update first and check before reporting.";
 "Your AltTab Pro trial has ended" = "Your AltTab Pro trial has ended";
-"Your feedback will be submitted as a public GitHub issue." = "Your feedback will be submitted as a public GitHub issue.";
 "Your Pro trial starts when AltTab is ready" = "Your Pro trial starts when AltTab is ready";
 "Your settings reset every time AltTab restarts." = "Your settings reset every time AltTab restarts.";

@@ -6,7 +6,6 @@
 "3-finger Vertical Swipe" = "三指垂直滑動";
 "4-finger Horizontal Swipe" = "四指水平滑動";
 "4-finger Vertical Swipe" = "四指垂直滑動";
-"A debug profile (versions, settings, hardware) is attached to help diagnose the issue." = "已附上除錯資訊（版本、設定、硬體）以協助診斷問題。";
 "A little time." = "花點時間。";
 "A new version of AltTab is available" = "AltTab 有新版本可供使用";
 "About %@" = "關於 %@";
@@ -68,7 +67,6 @@
 "Bundle ID" = "Bundle ID";
 "Cancel" = "取消";
 "Capture windows in the background" = "在背景擷取視窗";
-"Check for updates now…" = "立即檢查更新…";
 "Check for updates periodically" = "定期檢查更新";
 "Check for updates…" = "檢查更新…";
 "Check permissions…" = "檢查權限…";
@@ -83,7 +81,6 @@
 "Could not move to Applications folder" = "無法移到「應用程式」資料夾";
 "Couldn't deactivate that machine" = "無法停用該裝置";
 "Couldn't save your license to the macOS Keychain. Please share the details below with the developer." = "無法將您的授權儲存到 macOS 鑰匙圈。請將以下詳細資訊提供給開發者。";
-"Couldn't submit feedback" = "無法提交意見回饋";
 "Crash reports policy" = "當機報告政策";
 "Create GitHub issue" = "建立 GitHub issue";
 "Cursor follows focus" = "游標跟隨焦點";
@@ -248,7 +245,6 @@
 "Send" = "傳送";
 "Send a crash report?" = "傳送當機報告？";
 "Send feedback" = "傳送意見回饋";
-"Sending…" = "傳送中…";
 "Settings imported" = "設定已輸入";
 "Settings…" = "設定…";
 "Shopping" = "購物";
@@ -292,7 +288,6 @@
 "That's it" = "就是這樣";
 "The application needs to restart to apply the imported settings." = "App 需要重新啟動才能套用輸入的設定。";
 "The application needs to restart to apply the language change." = "App 需要重新啟動才能套用語言變更。";
-"The server didn't accept the submission. Check your internet connection and try again — your draft is preserved." = "伺服器未接受此提交。請檢查您的網路連線並重試 — 您的草稿已保留。";
 "Theme" = "主題";
 "This license is already activated elsewhere" = "此授權已在其他地方啟用";
 "This license is already activated on the maximum number of machines. Deactivate one to continue." = "此授權已在達到上限的裝置數量上啟用。請停用一個裝置以繼續。";
@@ -358,6 +353,5 @@
 "You reached for AltTab Pro this week" = "你本週用到了 AltTab Pro";
 "You're running v%1$@. v%2$@ is available. The bug you're seeing may already be fixed — please update first and check before reporting." = "您正在執行 v%1$@。v%2$@ 已推出。您遇到的問題可能已修正 — 請先更新並確認後再回報。";
 "Your AltTab Pro trial has ended" = "您的 AltTab Pro 試用已結束";
-"Your feedback will be submitted as a public GitHub issue." = "您的意見回饋將以公開的 GitHub issue 形式提交。";
 "Your Pro trial starts when AltTab is ready" = "AltTab 準備就緒後，Pro 試用期即開始";
 "Your settings reset every time AltTab restarts." = "每次重新啟動 AltTab 時，你的設定都會重設。";

@@ -6,7 +6,6 @@
 "3-finger Vertical Swipe" = "세 손가락 세로 스와이프";
 "4-finger Horizontal Swipe" = "네 손가락 가로 스와이프";
 "4-finger Vertical Swipe" = "네 손가락 세로 스와이프";
-"A debug profile (versions, settings, hardware) is attached to help diagnose the issue." = "문제 진단을 돕기 위해 디버그 프로파일(버전, 설정, 하드웨어)이 첨부됩니다.";
 "A little time." = "조금의 시간.";
 "A new version of AltTab is available" = "AltTab의 새 버전이 출시되었습니다";
 "About %@" = "%@ 정보";
@@ -68,7 +67,6 @@
 "Bundle ID" = "Bundle ID";
 "Cancel" = "취소";
 "Capture windows in the background" = "백그라운드에서 윈도우 캡처";
-"Check for updates now…" = "지금 업데이트 확인…";
 "Check for updates periodically" = "주기적으로 업데이트 확인";
 "Check for updates…" = "업데이트 확인…";
 "Check permissions…" = "권한 확인…";
@@ -83,7 +81,6 @@
 "Could not move to Applications folder" = "응용 프로그램 폴더로 이동할 수 없습니다";
 "Couldn't deactivate that machine" = "해당 기기를 비활성화할 수 없습니다";
 "Couldn't save your license to the macOS Keychain. Please share the details below with the developer." = "라이선스를 macOS 키체인에 저장할 수 없습니다. 아래 세부 정보를 개발자와 공유해 주세요.";
-"Couldn't submit feedback" = "피드백을 제출할 수 없습니다";
 "Crash reports policy" = "충돌 보고서 정책";
 "Create GitHub issue" = "GitHub 이슈 생성";
 "Cursor follows focus" = "커서가 포커스를 따라감";
@@ -248,7 +245,6 @@
 "Send" = "보내기";
 "Send a crash report?" = "충돌 보고서를 보내시겠습니까?";
 "Send feedback" = "피드백 보내기";
-"Sending…" = "보내는 중…";
 "Settings imported" = "설정을 가져왔습니다";
 "Settings…" = "설정…";
 "Shopping" = "쇼핑";
@@ -292,7 +288,6 @@
 "That's it" = "완료되었습니다";
 "The application needs to restart to apply the imported settings." = "가져온 설정을 적용하려면 앱을 재시작해야 합니다.";
 "The application needs to restart to apply the language change." = "언어 변경을 적용하려면 앱을 재시작해야 합니다.";
-"The server didn't accept the submission. Check your internet connection and try again — your draft is preserved." = "서버에서 제출을 수락하지 않았습니다. 인터넷 연결을 확인하고 다시 시도해 주세요 — 초안은 보존됩니다.";
 "Theme" = "테마";
 "This license is already activated elsewhere" = "이 라이선스는 이미 다른 곳에서 활성화되어 있습니다";
 "This license is already activated on the maximum number of machines. Deactivate one to continue." = "이 라이선스는 이미 최대 기기 수에서 활성화되어 있습니다. 계속하려면 하나를 비활성화하세요.";
@@ -358,6 +353,5 @@
 "You reached for AltTab Pro this week" = "이번 주에 AltTab Pro 기능을 찾으셨어요";
 "You're running v%1$@. v%2$@ is available. The bug you're seeing may already be fixed — please update first and check before reporting." = "현재 v%1$@를 사용 중입니다. v%2$@가 사용 가능합니다. 보고 있는 버그가 이미 수정되었을 수 있습니다 — 신고 전에 먼저 업데이트하고 확인해 주세요.";
 "Your AltTab Pro trial has ended" = "AltTab Pro 체험 기간이 끝났습니다";
-"Your feedback will be submitted as a public GitHub issue." = "피드백은 공개 GitHub 이슈로 제출됩니다.";
 "Your Pro trial starts when AltTab is ready" = "AltTab을 사용할 준비가 되면 Pro 체험이 시작됩니다";
 "Your settings reset every time AltTab restarts." = "AltTab을 다시 시작할 때마다 설정이 초기화됩니다.";

@@ -1,7 +1,6 @@
 import Cocoa
 import Darwin
 import ShortcutRecorder
-import AppCenterCrashes
 import Sparkle
 
 class App: AppCenterApplication {
@@ -32,10 +31,9 @@ class App: AppCenterApplication {
     private static let launchInventoryGraceInMs = 400
     private static var pendingShowSettingsWindow = false
     private static var firstLaunchSettingsObserver: NSObjectProtocol?
-    /// Written once and never read: AppCenter holds its delegate weakly, so this is the strong reference
-    /// that keeps the crash handler alive for the process lifetime.
-    // periphery:ignore
-    private static var appCenterDelegate: AppCenterCrash?
+    /// Never set in this build: no Sparkle updater is created, so nothing fetches an appcast, downloads an
+    /// update, or sends a crash report. Both stay optional because the debug tooling and the feedback window
+    /// still read them and fall back to an offline path when they are nil.
     static var sparkleDelegate: SparkleDelegate?
     static var updaterController: SPUStandardUpdaterController?
     private static var delayedDisplayWork: DispatchWorkItem?
@@ -140,10 +138,6 @@ class App: AppCenterApplication {
         #endif
         Logger.info { selectedWindow?.debugId }
         focusSelectedWindow(selectedWindow)
-    }
-
-    @objc static func checkForUpdatesNow(_ sender: NSMenuItem) {
-        GeneralTab.checkForUpdatesNow(sender)
     }
 
     // periphery:ignore:parameters sender - NSMenuItem target/action signature
@@ -572,18 +566,9 @@ class App: AppCenterApplication {
         // Needs the AX runloop `BackgroundWork.start()` created, so it cannot go with the launch-time setup.
         AxObserverRegistry.shared.startRecoveryTicks()
         CliEvents.observe()
-        App.sparkleDelegate = SparkleDelegate()
-        App.updaterController = SPUStandardUpdaterController(
-            startingUpdater: false,
-            updaterDelegate: App.sparkleDelegate!,
-            userDriverDelegate: nil)
-        #if DEBUG
-        if !Preferences.qaPristine && !QaLifecycle.enabled {
-            DispatchQueue.main.asyncAfter(deadline: .now() + 30) { App.updaterController?.startUpdater() }
-        }
-        #else
-        DispatchQueue.main.asyncAfter(deadline: .now() + 30) { App.updaterController?.startUpdater() }
-        #endif
+        // No updater and no crash reporter: both are the app's only remaining network clients, and this
+        // build makes no outbound connections at all. `App.updaterController` stays nil, which every caller
+        // already treats as "no update available".
         PreferencesEvents.initialize()
         #if DEBUG
         BenchmarkRunner.startIfNeeded()
@@ -618,7 +603,6 @@ class App: AppCenterApplication {
 
 extension App: NSApplicationDelegate {
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        App.appCenterDelegate = AppCenterCrash()
         App.shared.disableRelaunchOnLogin()
         Logger.initialize()
         MainThreadStall.observe()

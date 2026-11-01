@@ -6,7 +6,6 @@
 "3-finger Vertical Swipe" = "تمرير عمودي بثلاثة أصابع";
 "4-finger Horizontal Swipe" = "تمرير أفقي بأربعة أصابع";
 "4-finger Vertical Swipe" = "تمرير عمودي بأربعة أصابع";
-"A debug profile (versions, settings, hardware) is attached to help diagnose the issue." = "تم إرفاق ملف تصحيح (الإصدارات، الإعدادات، العتاد) للمساعدة في تشخيص المشكلة.";
 "A little time." = "لحظة فقط.";
 "A new version of AltTab is available" = "يتوفر إصدار جديد من AltTab";
 "About %@" = "حول %@";
@@ -68,7 +67,6 @@
 "Bundle ID" = "Bundle ID";
 "Cancel" = "إلغاء";
 "Capture windows in the background" = "التقاط النوافذ في الخلفية";
-"Check for updates now…" = "البحث عن التحديثات الآن…";
 "Check for updates periodically" = "البحث عن التحديثات بشكل دوري";
 "Check for updates…" = "البحث عن التحديثات…";
 "Check permissions…" = "التحقق من الأذونات…";
@@ -83,7 +81,6 @@
 "Could not move to Applications folder" = "تعذّر النقل إلى مجلد التطبيقات";
 "Couldn't deactivate that machine" = "تعذّر إلغاء تفعيل ذلك الجهاز";
 "Couldn't save your license to the macOS Keychain. Please share the details below with the developer." = "تعذّر حفظ ترخيصك في سلسلة مفاتيح macOS. يُرجى مشاركة التفاصيل أدناه مع المطوّر.";
-"Couldn't submit feedback" = "تعذّر إرسال الملاحظات";
 "Crash reports policy" = "سياسة تقارير الأعطال";
 "Create GitHub issue" = "إنشاء مشكلة على GitHub";
 "Cursor follows focus" = "المؤشر يتبع التركيز";
@@ -248,7 +245,6 @@
 "Send" = "إرسال";
 "Send a crash report?" = "إرسال تقرير الأعطال؟";
 "Send feedback" = "إرسال ملاحظات";
-"Sending…" = "جارٍ الإرسال…";
 "Settings imported" = "تم استيراد الإعدادات";
 "Settings…" = "الإعدادات…";
 "Shopping" = "تسوّق";
@@ -292,7 +288,6 @@
 "That's it" = "هذا كل شيء";
 "The application needs to restart to apply the imported settings." = "يحتاج التطبيق إلى إعادة التشغيل لتطبيق الإعدادات المستوردة.";
 "The application needs to restart to apply the language change." = "يحتاج التطبيق إلى إعادة التشغيل لتطبيق تغيير اللغة.";
-"The server didn't accept the submission. Check your internet connection and try again — your draft is preserved." = "لم يقبل الخادم الإرسال. تحقق من اتصالك بالإنترنت وحاول مرة أخرى — تم الاحتفاظ بمسودتك.";
 "Theme" = "السمة";
 "This license is already activated elsewhere" = "هذا الترخيص مفعّل بالفعل في مكان آخر";
 "This license is already activated on the maximum number of machines. Deactivate one to continue." = "هذا الترخيص مفعّل بالفعل على الحد الأقصى من الأجهزة. ألغِ تفعيل أحدها للمتابعة.";
@@ -358,6 +353,5 @@
 "You reached for AltTab Pro this week" = "لجأت إلى AltTab Pro هذا الأسبوع";
 "You're running v%1$@. v%2$@ is available. The bug you're seeing may already be fixed — please update first and check before reporting." = "أنت تستخدم الإصدار v%1$@. الإصدار v%2$@ متاح. ربما تم إصلاح الخلل الذي تراه بالفعل — يرجى التحديث أولاً والتحقق قبل الإبلاغ.";
 "Your AltTab Pro trial has ended" = "انتهت الفترة التجريبية لـ AltTab Pro";
-"Your feedback will be submitted as a public GitHub issue." = "سيتم إرسال ملاحظاتك كمشكلة عامة على GitHub.";
 "Your Pro trial starts when AltTab is ready" = "تبدأ تجربتك لـ Pro عندما يصبح AltTab جاهزًا";
 "Your settings reset every time AltTab restarts." = "تتم إعادة تعيين إعداداتك في كل مرة يُعاد فيها تشغيل AltTab.";

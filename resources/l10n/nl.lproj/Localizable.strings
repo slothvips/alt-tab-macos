@@ -6,7 +6,6 @@
 "3-finger Vertical Swipe" = "Verticale veegbeweging met 3 vingers";
 "4-finger Horizontal Swipe" = "Horizontale veegbeweging met 4 vingers";
 "4-finger Vertical Swipe" = "Verticale veegbeweging met 4 vingers";
-"A debug profile (versions, settings, hardware) is attached to help diagnose the issue." = "Een debugprofiel (versies, instellingen, hardware) is bijgevoegd om het probleem te diagnosticeren.";
 "A little time." = "Even tijd.";
 "A new version of AltTab is available" = "Er is een nieuwe versie van AltTab beschikbaar";
 "About %@" = "Over %@";
@@ -68,7 +67,6 @@
 "Bundle ID" = "Bundle ID";
 "Cancel" = "Annuleer";
 "Capture windows in the background" = "Vensters op de achtergrond vastleggen";
-"Check for updates now…" = "Nu op updates controleren…";
 "Check for updates periodically" = "Regelmatig op updates controleren";
 "Check for updates…" = "Op updates controleren…";
 "Check permissions…" = "Rechten controleren…";
@@ -83,7 +81,6 @@
 "Could not move to Applications folder" = "Kan niet naar map Programma's verplaatsen";
 "Couldn't deactivate that machine" = "Kon dat apparaat niet deactiveren";
 "Couldn't save your license to the macOS Keychain. Please share the details below with the developer." = "Kon je licentie niet opslaan in de macOS Sleutelhanger. Deel de gegevens hieronder met de ontwikkelaar.";
-"Couldn't submit feedback" = "Kon feedback niet versturen";
 "Crash reports policy" = "Beleid voor crashrapporten";
 "Create GitHub issue" = "GitHub-issue aanmaken";
 "Cursor follows focus" = "Cursor volgt focus";
@@ -248,7 +245,6 @@
 "Send" = "Verstuur";
 "Send a crash report?" = "Crashrapport versturen?";
 "Send feedback" = "Feedback versturen";
-"Sending…" = "Versturen…";
 "Settings imported" = "Instellingen geïmporteerd";
 "Settings…" = "Instellingen…";
 "Shopping" = "Boodschappen";
@@ -292,7 +288,6 @@
 "That's it" = "Dat was het";
 "The application needs to restart to apply the imported settings." = "De app moet opnieuw worden gestart om de geïmporteerde instellingen toe te passen.";
 "The application needs to restart to apply the language change." = "De app moet opnieuw worden gestart om de taalwijziging toe te passen.";
-"The server didn't accept the submission. Check your internet connection and try again — your draft is preserved." = "De server heeft de inzending niet geaccepteerd. Controleer je internetverbinding en probeer opnieuw — je concept blijft bewaard.";
 "Theme" = "Thema";
 "This license is already activated elsewhere" = "Deze licentie is al elders geactiveerd";
 "This license is already activated on the maximum number of machines. Deactivate one to continue." = "Deze licentie is al geactiveerd op het maximale aantal apparaten. Deactiveer er een om door te gaan.";
@@ -358,6 +353,5 @@
 "You reached for AltTab Pro this week" = "Je greep deze week naar AltTab Pro";
 "You're running v%1$@. v%2$@ is available. The bug you're seeing may already be fixed — please update first and check before reporting." = "Je gebruikt v%1$@. v%2$@ is beschikbaar. De bug die je ziet is mogelijk al verholpen — werk eerst bij en controleer voordat je rapporteert.";
 "Your AltTab Pro trial has ended" = "Je proefperiode van AltTab Pro is afgelopen";
-"Your feedback will be submitted as a public GitHub issue." = "Je feedback wordt ingediend als openbare GitHub-issue.";
 "Your Pro trial starts when AltTab is ready" = "Je Pro-proefperiode begint zodra AltTab klaar is";
 "Your settings reset every time AltTab restarts." = "Je instellingen worden bij elke herstart van AltTab teruggezet.";

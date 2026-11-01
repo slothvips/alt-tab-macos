@@ -6,7 +6,6 @@
 "3-finger Vertical Swipe" = "Scorrimento verticale a 3 dita";
 "4-finger Horizontal Swipe" = "Scorrimento orizzontale a 4 dita";
 "4-finger Vertical Swipe" = "Scorrimento verticale a 4 dita";
-"A debug profile (versions, settings, hardware) is attached to help diagnose the issue." = "È allegato un profilo di debug (versioni, impostazioni, hardware) per aiutare a diagnosticare il problema.";
 "A little time." = "Un attimo.";
 "A new version of AltTab is available" = "È disponibile una nuova versione di AltTab";
 "About %@" = "Informazioni su %@";
@@ -68,7 +67,6 @@
 "Bundle ID" = "Bundle ID";
 "Cancel" = "Annulla";
 "Capture windows in the background" = "Cattura finestre in background";
-"Check for updates now…" = "Cerca aggiornamenti ora…";
 "Check for updates periodically" = "Cerca aggiornamenti periodicamente";
 "Check for updates…" = "Cerca aggiornamenti…";
 "Check permissions…" = "Controlla i permessi…";
@@ -83,7 +81,6 @@
 "Could not move to Applications folder" = "Impossibile spostare nella cartella Applicazioni";
 "Couldn't deactivate that machine" = "Impossibile disattivare quel dispositivo";
 "Couldn't save your license to the macOS Keychain. Please share the details below with the developer." = "Impossibile salvare la tua licenza nel Portachiavi di macOS. Condividi i dettagli qui sotto con lo sviluppatore.";
-"Couldn't submit feedback" = "Impossibile inviare il feedback";
 "Crash reports policy" = "Politica dei resoconti di arresti anomali";
 "Create GitHub issue" = "Crea ticket GitHub";
 "Cursor follows focus" = "Il cursore segue il focus";
@@ -248,7 +245,6 @@
 "Send" = "Invia";
 "Send a crash report?" = "Inviare un resoconto di arresti anomali?";
 "Send feedback" = "Invia feedback";
-"Sending…" = "Invio in corso…";
 "Settings imported" = "Impostazioni importate";
 "Settings…" = "Impostazioni…";
 "Shopping" = "Spesa";
@@ -292,7 +288,6 @@
 "That's it" = "Fatto";
 "The application needs to restart to apply the imported settings." = "L'applicazione deve essere riavviata per applicare le impostazioni importate.";
 "The application needs to restart to apply the language change." = "L'applicazione deve essere riavviata per applicare il cambio di lingua.";
-"The server didn't accept the submission. Check your internet connection and try again — your draft is preserved." = "Il server non ha accettato l'invio. Controlla la connessione a internet e riprova — la bozza è conservata.";
 "Theme" = "Tema";
 "This license is already activated elsewhere" = "Questa licenza è già attivata altrove";
 "This license is already activated on the maximum number of machines. Deactivate one to continue." = "Questa licenza è già attivata sul numero massimo di dispositivi. Disattivane uno per continuare.";
@@ -358,6 +353,5 @@
 "You reached for AltTab Pro this week" = "Questa settimana hai cercato AltTab Pro";
 "You're running v%1$@. v%2$@ is available. The bug you're seeing may already be fixed — please update first and check before reporting." = "Stai usando la v%1$@. La v%2$@ è disponibile. Il bug che vedi potrebbe essere già stato risolto — aggiorna prima e controlla prima di segnalarlo.";
 "Your AltTab Pro trial has ended" = "La prova di AltTab Pro è terminata";
-"Your feedback will be submitted as a public GitHub issue." = "Il tuo feedback sarà inviato come issue pubblica su GitHub.";
 "Your Pro trial starts when AltTab is ready" = "La prova di Pro inizia quando AltTab è pronto";
 "Your settings reset every time AltTab restarts." = "Le tue impostazioni si reimpostano a ogni riavvio di AltTab.";

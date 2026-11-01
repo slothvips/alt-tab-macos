@@ -6,7 +6,6 @@
 "3-finger Vertical Swipe" = "Gesek Vertikal 3 Jari";
 "4-finger Horizontal Swipe" = "Gesek Horizontal 4 Jari";
 "4-finger Vertical Swipe" = "Gesek Vertikal 4 Jari";
-"A debug profile (versions, settings, hardware) is attached to help diagnose the issue." = "Profil debug (versi, pengaturan, perangkat keras) dilampirkan untuk membantu mendiagnosis masalah.";
 "A little time." = "Sejenak.";
 "A new version of AltTab is available" = "Versi baru AltTab tersedia";
 "About %@" = "Tentang %@";
@@ -68,7 +67,6 @@
 "Bundle ID" = "Bundle ID";
 "Cancel" = "Batal";
 "Capture windows in the background" = "Tangkap jendela di latar belakang";
-"Check for updates now…" = "Periksa pembaruan sekarang…";
 "Check for updates periodically" = "Periksa pembaruan secara berkala";
 "Check for updates…" = "Periksa pembaruan…";
 "Check permissions…" = "Periksa izin…";
@@ -83,7 +81,6 @@
 "Could not move to Applications folder" = "Tidak dapat memindahkan ke folder Aplikasi";
 "Couldn't deactivate that machine" = "Tidak dapat menonaktifkan mesin tersebut";
 "Couldn't save your license to the macOS Keychain. Please share the details below with the developer." = "Tidak dapat menyimpan lisensi Anda ke Rantai Kunci macOS. Bagikan detail di bawah ini kepada pengembang.";
-"Couldn't submit feedback" = "Tidak dapat mengirim masukan";
 "Crash reports policy" = "Kebijakan laporan kerusakan";
 "Create GitHub issue" = "Buat isu GitHub";
 "Cursor follows focus" = "Kursor mengikuti fokus";
@@ -248,7 +245,6 @@
 "Send" = "Kirim";
 "Send a crash report?" = "Kirim laporan kerusakan?";
 "Send feedback" = "Kirim masukan";
-"Sending…" = "Mengirim…";
 "Settings imported" = "Pengaturan diimpor";
 "Settings…" = "Pengaturan…";
 "Shopping" = "Belanja";
@@ -292,7 +288,6 @@
 "That's it" = "Selesai";
 "The application needs to restart to apply the imported settings." = "Aplikasi perlu dimulai ulang untuk menerapkan pengaturan yang diimpor.";
 "The application needs to restart to apply the language change." = "Aplikasi perlu dimulai ulang untuk menerapkan perubahan bahasa.";
-"The server didn't accept the submission. Check your internet connection and try again — your draft is preserved." = "Server tidak menerima kiriman. Periksa koneksi internet Anda dan coba lagi — draf Anda tetap tersimpan.";
 "Theme" = "Tema";
 "This license is already activated elsewhere" = "Lisensi ini sudah diaktifkan di tempat lain";
 "This license is already activated on the maximum number of machines. Deactivate one to continue." = "Lisensi ini sudah diaktifkan pada jumlah mesin maksimum. Nonaktifkan salah satu untuk melanjutkan.";
@@ -358,6 +353,5 @@
 "You reached for AltTab Pro this week" = "Anda mencoba AltTab Pro minggu ini";
 "You're running v%1$@. v%2$@ is available. The bug you're seeing may already be fixed — please update first and check before reporting." = "Anda menjalankan v%1$@. v%2$@ tersedia. Bug yang Anda lihat mungkin sudah diperbaiki — harap perbarui dulu dan periksa sebelum melaporkan.";
 "Your AltTab Pro trial has ended" = "Masa uji coba AltTab Pro Anda berakhir";
-"Your feedback will be submitted as a public GitHub issue." = "Masukan Anda akan dikirim sebagai isu GitHub publik.";
 "Your Pro trial starts when AltTab is ready" = "Uji coba Pro dimulai saat AltTab siap digunakan";
 "Your settings reset every time AltTab restarts." = "Pengaturan Anda diatur ulang setiap kali AltTab dimulai ulang.";

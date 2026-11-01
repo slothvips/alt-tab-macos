@@ -36,10 +36,6 @@ class FeedbackWindow: NSWindow {
     /// Tracks whether the visible content is the form (true) or the kind picker (false). Used to
     /// know whether issueTitle / body reflect the current user-visible input.
     private var formIsVisible = false
-    /// Sentinel for in-flight POSTs — `sendCallback` sets it before firing the request, the
-    /// completion handler bumps it back to false. Used to avoid double-submits and to decide
-    /// whether the error alert is still relevant when a response finally arrives.
-    private var isSubmitting = false
     /// Bumped before each Sparkle update check, and again on any window-state change that
     /// invalidates that check (close, reset, user navigating away). The completion closures
     /// captured by the check compare against this generation and no-op on mismatch — that
@@ -321,7 +317,6 @@ class FeedbackWindow: NSWindow {
     }
 
     private func checkEmptyFields() {
-        if isSubmitting { return }
         sendButton.isEnabled = !body.stringValue.isEmpty && !issueTitle.stringValue.isEmpty
         sendButton.toolTip = sendButton.isEnabled ? "" : NSLocalizedString("Please fill in the form", comment: "")
     }
@@ -348,92 +343,13 @@ class FeedbackWindow: NSWindow {
         return super.performKeyEquivalent(with: event)
     }
 
+    /// No network in this build: hand the report to GitHub's issue form in the user's browser, and put the
+    /// debug profile on the clipboard so it can be pasted in. The draft stays on screen, so nothing is lost.
     @objc private func sendCallback() {
-        if isSubmitting { return }
-        let alert = NSAlert()
-        alert.alertStyle = .informational
-        alert.messageText = NSLocalizedString("Your feedback will be submitted as a public GitHub issue.", comment: "")
-        alert.informativeText = NSLocalizedString("A debug profile (versions, settings, hardware) is attached to help diagnose the issue.", comment: "")
-        alert.addButton(withTitle: NSLocalizedString("Create GitHub issue", comment: ""))
-        let cancelButton = alert.addButton(withTitle: NSLocalizedString("Cancel", comment: ""))
-        cancelButton.keyEquivalent = "\u{1b}" // Escape
-        alert.present(attachedTo: self) { [weak self] in
-            if $0 == .alertFirstButtonReturn { self?.submit() }
-        }
-    }
-
-    private func submit() {
-        guard !isSubmitting else { return }
-        beginSubmitting()
-        // Capture the kind that owns this submission. If the user navigates to the other kind
-        // form while the POST is in flight, completion still clears the right draft slot.
-        let submittedKind = kind
-        URLSession.shared.dataTask(with: prepareRequest()) { [weak self] data, response, error in
-            let status = (response as? HTTPURLResponse)?.statusCode ?? 0
-            let succeeded = status == 201 && error == nil
-            if !succeeded {
-                Logger.error { "feedback POST failed. status:\(status) response:\(response) error:\(error) data:\(data.flatMap { String(data: $0, encoding: .utf8) })" }
-            }
-            DispatchQueue.main.async {
-                guard let self = self else { return }
-                self.endSubmitting()
-                if succeeded {
-                    self.drafts[submittedKind] = nil
-                    // If the user is still on the form they submitted, also clear the on-screen
-                    // textareas so the visible state matches the now-empty draft.
-                    if self.formIsVisible && self.kind == submittedKind {
-                        self.issueTitle.stringValue = ""
-                        self.body.stringValue = ""
-                    }
-                    self.close()
-                } else {
-                    self.showSubmitFailureAlert()
-                }
-            }
-        }.resume()
-    }
-
-    private func beginSubmitting() {
-        isSubmitting = true
-        sendButton.isEnabled = false
-        sendButton.title = NSLocalizedString("Sending…", comment: "")
-    }
-
-    private func endSubmitting() {
-        isSubmitting = false
-        sendButton.title = NSLocalizedString("Create GitHub issue", comment: "")
-        checkEmptyFields()
-    }
-
-    private func showSubmitFailureAlert() {
-        // If the user already dismissed the window before the failure came back, skip the alert —
-        // surprising them with a modal on a closed-feeling window is worse than swallowing it. The
-        // draft is already preserved in `drafts`, so they'll see their text again on next reopen.
-        guard isVisible else { return }
-        let alert = NSAlert()
-        alert.alertStyle = .warning
-        alert.messageText = NSLocalizedString("Couldn't submit feedback", comment: "")
-        alert.informativeText = NSLocalizedString("The server didn't accept the submission. Check your internet connection and try again — your draft is preserved.", comment: "")
-        alert.addButton(withTitle: NSLocalizedString("OK", comment: ""))
-        alert.present(attachedTo: self) { _ in }
-    }
-
-    /// The backend owns the final GitHub issue presentation — we just hand it the raw
-    /// pieces. Splitting `body` from `debugProfile` means the markdown layout (quoting,
-    /// `<details>` wrapping, disclaimer) can change server-side without forcing every
-    /// installed AltTab to update.
-    private func prepareRequest() -> URLRequest {
-        var request = URLRequest(url: URL(string: Endpoints.feedbackUrl)!)
-        request.httpMethod = "POST"
-        request.addValue("application/json", forHTTPHeaderField: "Content-Type")
-        request.addValue("application/json", forHTTPHeaderField: "Accept")
-        request.httpBody = try! JSONSerialization.data(withJSONObject: [
-            "title": issueTitle.stringValue,
-            "body": body.stringValue,
-            "kind": kind.apiValue,
-            "debugProfile": DebugProfile.make(),
-        ])
-        return request
+        NSPasteboard.general.clearContents()
+        NSPasteboard.general.setString(DebugProfile.make(), forType: .string)
+        NSWorkspace.shared.open(URL(string: App.repository + "/issues/new")!)
+        close()
     }
 
     override func close() {

@@ -6,7 +6,6 @@
 "3-finger Vertical Swipe" = "Vertikalt svep med 3 fingrar";
 "4-finger Horizontal Swipe" = "Horisontellt svep med 4 fingrar";
 "4-finger Vertical Swipe" = "Vertikalt svep med 4 fingrar";
-"A debug profile (versions, settings, hardware) is attached to help diagnose the issue." = "En felsökningsprofil (versioner, inställningar, hårdvara) bifogas för att hjälpa till att diagnostisera problemet.";
 "A little time." = "Lite tid.";
 "A new version of AltTab is available" = "En ny version av AltTab är tillgänglig";
 "About %@" = "Om %@";
@@ -68,7 +67,6 @@
 "Bundle ID" = "Bundle ID";
 "Cancel" = "Avbryt";
 "Capture windows in the background" = "Fånga fönster i bakgrunden";
-"Check for updates now…" = "Sök efter uppdateringar nu…";
 "Check for updates periodically" = "Sök efter uppdateringar regelbundet";
 "Check for updates…" = "Sök efter uppdateringar…";
 "Check permissions…" = "Kontrollera behörigheter…";
@@ -83,7 +81,6 @@
 "Could not move to Applications folder" = "Kunde inte flytta till mappen Program";
 "Couldn't deactivate that machine" = "Kunde inte inaktivera den datorn";
 "Couldn't save your license to the macOS Keychain. Please share the details below with the developer." = "Kunde inte spara din licens i macOS Nyckelring. Dela uppgifterna nedan med utvecklaren.";
-"Couldn't submit feedback" = "Kunde inte skicka feedback";
 "Crash reports policy" = "Policy för kraschrapporter";
 "Create GitHub issue" = "Skapa GitHub-ärende";
 "Cursor follows focus" = "Markören följer fokus";
@@ -248,7 +245,6 @@
 "Send" = "Skicka";
 "Send a crash report?" = "Skicka en kraschrapport?";
 "Send feedback" = "Skicka feedback";
-"Sending…" = "Skickar…";
 "Settings imported" = "Inställningar importerade";
 "Settings…" = "Inställningar…";
 "Shopping" = "Inköp";
@@ -292,7 +288,6 @@
 "That's it" = "Klart";
 "The application needs to restart to apply the imported settings." = "Programmet måste startas om för att tillämpa de importerade inställningarna.";
 "The application needs to restart to apply the language change." = "Programmet måste startas om för att tillämpa språkändringen.";
-"The server didn't accept the submission. Check your internet connection and try again — your draft is preserved." = "Servern accepterade inte inlämningen. Kontrollera din internetanslutning och försök igen — ditt utkast har sparats.";
 "Theme" = "Tema";
 "This license is already activated elsewhere" = "Den här licensen är redan aktiverad någon annanstans";
 "This license is already activated on the maximum number of machines. Deactivate one to continue." = "Den här licensen är redan aktiverad på det maximala antalet datorer. Inaktivera en för att fortsätta.";
@@ -358,6 +353,5 @@
 "You reached for AltTab Pro this week" = "Du sträckte dig efter AltTab Pro den här veckan";
 "You're running v%1$@. v%2$@ is available. The bug you're seeing may already be fixed — please update first and check before reporting." = "Du kör v%1$@. v%2$@ är tillgänglig. Felet du ser kan redan vara åtgärdat — uppdatera först och kontrollera innan du rapporterar.";
 "Your AltTab Pro trial has ended" = "Din provperiod för AltTab Pro har avslutats";
-"Your feedback will be submitted as a public GitHub issue." = "Din feedback skickas in som ett offentligt GitHub-ärende.";
 "Your Pro trial starts when AltTab is ready" = "Din Pro-provperiod börjar när AltTab är redo";
 "Your settings reset every time AltTab restarts." = "Dina inställningar återställs varje gång AltTab startas om.";

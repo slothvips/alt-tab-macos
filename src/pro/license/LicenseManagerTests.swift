@@ -723,6 +723,20 @@ final class LicenseManagerTests: XCTestCase {
         XCTAssertEqual(manager.state, .pro)
     }
 
+    /// The three licensing calls are the app's only other outbound HTTP. With `forcesPro` they must all fail
+    /// without touching the API, before any request is built.
+    func testForcedProNeverCallsTheLicenseAPI() {
+        manager.forcesPro = true
+        manager.initialize()
+        var failures = 0
+        let record: (Result<Void, Error>) -> Void = { if case .failure = $0 { failures += 1 } }
+        manager.activate("key", completion: record)
+        manager.deactivate(completion: record)
+        manager.deactivateInstance(licenseKey: "key", instanceId: "inst", completion: record)
+        XCTAssertEqual(failures, 3)
+        XCTAssertTrue(api.activateCalls.isEmpty && api.deactivateCalls.isEmpty)
+    }
+
     /// Run everything already queued on main, then return. The chain under test is two hops deep (the mock
     /// API enqueues its completion, which enqueues the state write), so a block enqueued now runs after both.
     /// A fixed `RunLoop.run(until:)` spin cost 50ms per call for the same guarantee.

@@ -6,7 +6,6 @@
 "3-finger Vertical Swipe" = "Вертикальный свайп тремя пальцами";
 "4-finger Horizontal Swipe" = "Горизонтальный свайп четырьмя пальцами";
 "4-finger Vertical Swipe" = "Вертикальный свайп четырьмя пальцами";
-"A debug profile (versions, settings, hardware) is attached to help diagnose the issue." = "К сообщению приложен отладочный профиль (версии, настройки, оборудование) для диагностики проблемы.";
 "A little time." = "Минутка.";
 "A new version of AltTab is available" = "Доступна новая версия AltTab";
 "About %@" = "О программе %@";
@@ -68,7 +67,6 @@
 "Bundle ID" = "Bundle ID";
 "Cancel" = "Отмена";
 "Capture windows in the background" = "Захватывать окна в фоновом режиме";
-"Check for updates now…" = "Проверить обновления сейчас…";
 "Check for updates periodically" = "Периодически проверять обновления";
 "Check for updates…" = "Проверить обновления…";
 "Check permissions…" = "Проверить разрешения…";
@@ -83,7 +81,6 @@
 "Could not move to Applications folder" = "Не удалось переместить в папку «Программы»";
 "Couldn't deactivate that machine" = "Не удалось деактивировать этот компьютер";
 "Couldn't save your license to the macOS Keychain. Please share the details below with the developer." = "Не удалось сохранить лицензию в Связке ключей macOS. Передайте указанные ниже сведения разработчику.";
-"Couldn't submit feedback" = "Не удалось отправить отзыв";
 "Crash reports policy" = "Политика отчётов о сбоях";
 "Create GitHub issue" = "Создать issue на GitHub";
 "Cursor follows focus" = "Курсор следует за фокусом";
@@ -248,7 +245,6 @@
 "Send" = "Отправить";
 "Send a crash report?" = "Отправить отчёт о сбое?";
 "Send feedback" = "Отправить отзыв";
-"Sending…" = "Отправка…";
 "Settings imported" = "Настройки импортированы";
 "Settings…" = "Настройки…";
 "Shopping" = "Покупки";
@@ -292,7 +288,6 @@
 "That's it" = "Готово";
 "The application needs to restart to apply the imported settings." = "Чтобы применить импортированные настройки, приложение нужно перезапустить.";
 "The application needs to restart to apply the language change." = "Чтобы применить смену языка, приложение нужно перезапустить.";
-"The server didn't accept the submission. Check your internet connection and try again — your draft is preserved." = "Сервер не принял отправку. Проверьте подключение к интернету и повторите попытку — черновик сохранён.";
 "Theme" = "Тема";
 "This license is already activated elsewhere" = "Эта лицензия уже активирована в другом месте";
 "This license is already activated on the maximum number of machines. Deactivate one to continue." = "Эта лицензия уже активирована на максимальном числе компьютеров. Деактивируйте один, чтобы продолжить.";
@@ -358,6 +353,5 @@
 "You reached for AltTab Pro this week" = "На этой неделе вам понадобился AltTab Pro";
 "You're running v%1$@. v%2$@ is available. The bug you're seeing may already be fixed — please update first and check before reporting." = "У вас установлена v%1$@. Доступна v%2$@. Ошибка, с которой вы столкнулись, возможно, уже исправлена — сначала обновитесь и проверьте, прежде чем сообщать о ней.";
 "Your AltTab Pro trial has ended" = "Пробный период AltTab Pro завершён";
-"Your feedback will be submitted as a public GitHub issue." = "Ваш отзыв будет отправлен как публичный issue на GitHub.";
 "Your Pro trial starts when AltTab is ready" = "Пробный период Pro начнётся, когда AltTab будет готов к работе";
 "Your settings reset every time AltTab restarts." = "Ваши настройки сбрасываются при каждом перезапуске AltTab.";

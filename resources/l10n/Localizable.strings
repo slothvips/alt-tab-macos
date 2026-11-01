@@ -22,9 +22,6 @@
 /* No comment provided by engineer. */
 "4-finger Vertical Swipe" = "4-finger Vertical Swipe";
 
-/* No comment provided by engineer. */
-"A debug profile (versions, settings, hardware) is attached to help diagnose the issue." = "A debug profile (versions, settings, hardware) is attached to help diagnose the issue.";
-
 /* Illustration: page.recipe1 */
 "A little time." = "A little time.";
 
@@ -209,12 +206,9 @@
 "Capture windows in the background" = "Capture windows in the background";
 
 /* No comment provided by engineer. */
-"Check for updates now…" = "Check for updates now…";
-
-/* No comment provided by engineer. */
 "Check for updates periodically" = "Check for updates periodically";
 
-/* Menubar option */
+/* No comment provided by engineer. */
 "Check for updates…" = "Check for updates…";
 
 /* Menubar option */
@@ -252,9 +246,6 @@
 
 /* No comment provided by engineer. */
 "Couldn't save your license to the macOS Keychain. Please share the details below with the developer." = "Couldn't save your license to the macOS Keychain. Please share the details below with the developer.";
-
-/* No comment provided by engineer. */
-"Couldn't submit feedback" = "Couldn't submit feedback";
 
 /* No comment provided by engineer. */
 "Crash reports policy" = "Crash reports policy";
@@ -750,9 +741,6 @@
 "Send feedback" = "Send feedback";
 
 /* No comment provided by engineer. */
-"Sending…" = "Sending…";
-
-/* No comment provided by engineer. */
 "Settings imported" = "Settings imported";
 
 /* Menubar option */
@@ -880,9 +868,6 @@
 
 /* No comment provided by engineer. */
 "The application needs to restart to apply the language change." = "The application needs to restart to apply the language change.";
-
-/* No comment provided by engineer. */
-"The server didn't accept the submission. Check your internet connection and try again — your draft is preserved." = "The server didn't accept the submission. Check your internet connection and try again — your draft is preserved.";
 
 /* No comment provided by engineer. */
 "Theme" = "Theme";
@@ -1078,9 +1063,6 @@
 
 /* No comment provided by engineer. */
 "Your AltTab Pro trial has ended" = "Your AltTab Pro trial has ended";
-
-/* No comment provided by engineer. */
-"Your feedback will be submitted as a public GitHub issue." = "Your feedback will be submitted as a public GitHub issue.";
 
 /* Permissions setup is not finished */
 "Your Pro trial starts when AltTab is ready" = "Your Pro trial starts when AltTab is ready";

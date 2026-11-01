@@ -6,7 +6,6 @@
 "3-finger Vertical Swipe" = "החלקה אנכית ב-3 אצבעות";
 "4-finger Horizontal Swipe" = "החלקה אופקית ב-4 אצבעות";
 "4-finger Vertical Swipe" = "החלקה אנכית ב-4 אצבעות";
-"A debug profile (versions, settings, hardware) is attached to help diagnose the issue." = "פרופיל איתור באגים (גרסאות, הגדרות, חומרה) מצורף כדי לסייע באבחון הבעיה.";
 "A little time." = "קצת זמן.";
 "A new version of AltTab is available" = "גרסה חדשה של AltTab זמינה";
 "About %@" = "אודות %@";
@@ -68,7 +67,6 @@
 "Bundle ID" = "Bundle ID";
 "Cancel" = "ביטול";
 "Capture windows in the background" = "לכוד חלונות ברקע";
-"Check for updates now…" = "חפש עדכונים כעת…";
 "Check for updates periodically" = "חפש עדכונים מעת לעת";
 "Check for updates…" = "חפש עדכונים…";
 "Check permissions…" = "בדוק הרשאות…";
@@ -83,7 +81,6 @@
 "Could not move to Applications folder" = "לא ניתן היה להעביר לתיקיית היישומים";
 "Couldn't deactivate that machine" = "לא ניתן היה לבטל את הפעלת המכשיר הזה";
 "Couldn't save your license to the macOS Keychain. Please share the details below with the developer." = "לא ניתן היה לשמור את הרישיון שלך בצרור המפתחות של macOS. שתף את הפרטים שלהלן עם המפתח.";
-"Couldn't submit feedback" = "לא ניתן היה לשלוח משוב";
 "Crash reports policy" = "מדיניות דיווחי קריסה";
 "Create GitHub issue" = "צור issue ב-GitHub";
 "Cursor follows focus" = "הסמן עוקב אחר המיקוד";
@@ -248,7 +245,6 @@
 "Send" = "שלח";
 "Send a crash report?" = "לשלוח דיווח קריסה?";
 "Send feedback" = "שלח משוב";
-"Sending…" = "שולח…";
 "Settings imported" = "ההגדרות יובאו";
 "Settings…" = "הגדרות…";
 "Shopping" = "קניות";
@@ -292,7 +288,6 @@
 "That's it" = "זהו";
 "The application needs to restart to apply the imported settings." = "היישום צריך להיפתח מחדש כדי להחיל את ההגדרות שיובאו.";
 "The application needs to restart to apply the language change." = "היישום צריך להיפתח מחדש כדי להחיל את שינוי השפה.";
-"The server didn't accept the submission. Check your internet connection and try again — your draft is preserved." = "השרת לא קיבל את ההגשה. בדוק את חיבור האינטרנט ונסה שוב — הטיוטה שלך נשמרת.";
 "Theme" = "ערכת נושא";
 "This license is already activated elsewhere" = "רישיון זה כבר מופעל במקום אחר";
 "This license is already activated on the maximum number of machines. Deactivate one to continue." = "רישיון זה כבר מופעל במספר המקסימלי של מכשירים. בטל הפעלת אחד כדי להמשיך.";
@@ -358,6 +353,5 @@
 "You reached for AltTab Pro this week" = "השבוע פניתם ל-AltTab Pro";
 "You're running v%1$@. v%2$@ is available. The bug you're seeing may already be fixed — please update first and check before reporting." = "אתה מריץ את v%1$@. v%2$@ זמינה. ייתכן שהבאג שאתה רואה כבר תוקן — עדכן תחילה ובדוק לפני הדיווח.";
 "Your AltTab Pro trial has ended" = "תקופת הניסיון של AltTab Pro הסתיימה";
-"Your feedback will be submitted as a public GitHub issue." = "המשוב שלך יוגש כ-issue ציבורי ב-GitHub.";
 "Your Pro trial starts when AltTab is ready" = "תקופת הניסיון של Pro מתחילה כאשר AltTab מוכן";
 "Your settings reset every time AltTab restarts." = "ההגדרות שלך מתאפסות בכל פעם ש‑AltTab מופעל מחדש.";

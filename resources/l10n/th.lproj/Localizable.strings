@@ -6,7 +6,6 @@
 "3-finger Vertical Swipe" = "ปัด 3 นิ้วในแนวตั้ง";
 "4-finger Horizontal Swipe" = "ปัด 4 นิ้วในแนวนอน";
 "4-finger Vertical Swipe" = "ปัด 4 นิ้วในแนวตั้ง";
-"A debug profile (versions, settings, hardware) is attached to help diagnose the issue." = "แนบโปรไฟล์การแก้ไขข้อบกพร่อง (เวอร์ชัน การตั้งค่า ฮาร์ดแวร์) เพื่อช่วยวินิจฉัยปัญหา";
 "A little time." = "เวลาเล็กน้อย";
 "A new version of AltTab is available" = "มี AltTab เวอร์ชันใหม่ให้ใช้งาน";
 "About %@" = "เกี่ยวกับ %@";
@@ -68,7 +67,6 @@
 "Bundle ID" = "Bundle ID";
 "Cancel" = "ยกเลิก";
 "Capture windows in the background" = "จับภาพหน้าต่างในเบื้องหลัง";
-"Check for updates now…" = "ตรวจหาอัปเดตทันที…";
 "Check for updates periodically" = "ตรวจหาอัปเดตเป็นระยะ";
 "Check for updates…" = "ตรวจหาอัปเดต…";
 "Check permissions…" = "ตรวจสอบสิทธิ์…";
@@ -83,7 +81,6 @@
 "Could not move to Applications folder" = "ไม่สามารถย้ายไปยังโฟลเดอร์ Applications";
 "Couldn't deactivate that machine" = "ไม่สามารถปิดใช้งานเครื่องนั้น";
 "Couldn't save your license to the macOS Keychain. Please share the details below with the developer." = "ไม่สามารถบันทึกสิทธิ์ใช้งานของคุณไปยังพวงกุญแจของ macOS โปรดแบ่งปันรายละเอียดด้านล่างกับนักพัฒนา";
-"Couldn't submit feedback" = "ไม่สามารถส่งคำติชม";
 "Crash reports policy" = "นโยบายรายงานการขัดข้อง";
 "Create GitHub issue" = "สร้างปัญหาบน GitHub";
 "Cursor follows focus" = "เคอร์เซอร์ตามโฟกัส";
@@ -248,7 +245,6 @@
 "Send" = "ส่ง";
 "Send a crash report?" = "ส่งรายงานการขัดข้องหรือไม่?";
 "Send feedback" = "ส่งคำติชม";
-"Sending…" = "กำลังส่ง…";
 "Settings imported" = "นำเข้าการตั้งค่าแล้ว";
 "Settings…" = "การตั้งค่า…";
 "Shopping" = "ซื้อของ";
@@ -292,7 +288,6 @@
 "That's it" = "เท่านี้เอง";
 "The application needs to restart to apply the imported settings." = "แอปพลิเคชันต้องรีสตาร์ทเพื่อนำการตั้งค่าที่นำเข้ามาใช้";
 "The application needs to restart to apply the language change." = "แอปพลิเคชันต้องรีสตาร์ทเพื่อนำการเปลี่ยนแปลงภาษามาใช้";
-"The server didn't accept the submission. Check your internet connection and try again — your draft is preserved." = "เซิร์ฟเวอร์ไม่ยอมรับการส่ง โปรดตรวจสอบการเชื่อมต่ออินเทอร์เน็ตและลองอีกครั้ง — ฉบับร่างของคุณยังคงอยู่";
 "Theme" = "ธีม";
 "This license is already activated elsewhere" = "สิทธิ์ใช้งานนี้ถูกเปิดใช้งานในที่อื่นแล้ว";
 "This license is already activated on the maximum number of machines. Deactivate one to continue." = "สิทธิ์ใช้งานนี้ถูกเปิดใช้งานบนเครื่องในจำนวนสูงสุดแล้ว ปิดใช้งานหนึ่งเครื่องเพื่อดำเนินการต่อ";
@@ -358,6 +353,5 @@
 "You reached for AltTab Pro this week" = "สัปดาห์นี้คุณลองใช้ AltTab Pro";
 "You're running v%1$@. v%2$@ is available. The bug you're seeing may already be fixed — please update first and check before reporting." = "คุณใช้งานเวอร์ชัน %1$@ อยู่ มีเวอร์ชัน %2$@ ให้ใช้งาน ข้อบกพร่องที่คุณเห็นอาจได้รับการแก้ไขแล้ว — โปรดอัปเดตก่อนและตรวจสอบก่อนรายงาน";
 "Your AltTab Pro trial has ended" = "ช่วงทดลองใช้ AltTab Pro สิ้นสุดแล้ว";
-"Your feedback will be submitted as a public GitHub issue." = "คำติชมของคุณจะถูกส่งเป็นปัญหาสาธารณะบน GitHub";
 "Your Pro trial starts when AltTab is ready" = "ช่วงทดลองใช้ Pro จะเริ่มเมื่อ AltTab พร้อมใช้งาน";
 "Your settings reset every time AltTab restarts." = "การตั้งค่าของคุณจะถูกรีเซ็ตทุกครั้งที่ AltTab เริ่มทำงานใหม่";

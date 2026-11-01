@@ -182,6 +182,10 @@ class LicenseManager {
     var onActivationSucceeded: () -> Void = {}
 
     func activate(_ licenseKey: String, completion: @escaping (Result<Void, Error>) -> Void) {
+        guard !forcesPro else {
+            completion(.failure(LicenseAPIError.apiError("Licensing is disabled in this build.")))
+            return
+        }
         api.activate(licenseKey) { [weak self] result in
             DispatchQueue.main.async {
                 guard let self else { return }
@@ -225,6 +229,10 @@ class LicenseManager {
     }
 
     func deactivate(completion: @escaping (Result<Void, Error>) -> Void) {
+        guard !forcesPro else {
+            completion(.failure(LicenseAPIError.apiError("Licensing is disabled in this build.")))
+            return
+        }
         guard let licenseKey = keychain.value(account: Self.keychainKeyAccount),
               let instanceId = keychain.value(account: Self.keychainInstanceAccount) else {
             completion(.failure(LicenseAPIError.invalidKey))
@@ -254,6 +262,10 @@ class LicenseManager {
     /// Remote-deactivate a specific instance that isn't this machine — used to reclaim a seat
     /// before re-running activation. Does not touch local keychain/UserDefaults state.
     func deactivateInstance(licenseKey: String, instanceId: String, completion: @escaping (Result<Void, Error>) -> Void) {
+        guard !forcesPro else {
+            completion(.failure(LicenseAPIError.apiError("Licensing is disabled in this build.")))
+            return
+        }
         api.deactivate(licenseKey, instanceId: instanceId) { result in
             DispatchQueue.main.async { completion(result) }
         }
