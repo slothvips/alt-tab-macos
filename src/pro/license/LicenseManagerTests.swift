@@ -702,6 +702,27 @@ final class LicenseManagerTests: XCTestCase {
         defaults.set(true, forKey: "lastValidationResult")
     }
 
+    // MARK: - Crack build
+
+    /// `forcesPro` is set only on `LicenseManager.shared`. This pins that it beats the trial clock, a stored
+    /// license, and an invalid server answer, which is the whole point of the crack build.
+    func testForcedProIgnoresTrialClockStoredLicenseAndRevalidation() {
+        manager.forcesPro = true
+        manager.initialize()
+        XCTAssertEqual(manager.state, .pro)
+        XCTAssertTrue(manager.isProAvailable)
+        XCTAssertFalse(manager.isProLocked)
+        keychain.setValue("key", account: LicenseManager.keychainKeyAccount)
+        keychain.setValue("inst", account: LicenseManager.keychainInstanceAccount)
+        api.validateResult = .success(ValidateResult(valid: false, variantId: nil))
+        manager.revalidateWithServer()
+        XCTAssertTrue(api.validateCalls.isEmpty)
+        XCTAssertEqual(manager.state, .pro)
+        clock.advance(days: 400)
+        manager.refreshState()
+        XCTAssertEqual(manager.state, .pro)
+    }
+
     /// Run everything already queued on main, then return. The chain under test is two hops deep (the mock
     /// API enqueues its completion, which enqueues the state write), so a block enqueued now runs after both.
     /// A fixed `RunLoop.run(until:)` spin cost 50ms per call for the same guarantee.

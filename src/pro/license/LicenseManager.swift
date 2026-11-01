@@ -16,12 +16,14 @@ class LicenseManager {
 
     static let shared: LicenseManager = {
         let keychain = SystemKeychain(service: keychainService)
-        return LicenseManager(
+        let manager = LicenseManager(
             clock: SystemClock(),
             keychain: keychain,
             api: RemoteLicenseClient(baseUrl: Endpoints.licenseApiBaseUrl, keychain: keychain),
             defaults: UserDefaults(suiteName: defaultsSuiteName)!
         )
+        manager.forcesPro = true
+        return manager
     }()
 
     static let trialDuration = 14
@@ -59,6 +61,11 @@ class LicenseManager {
     var onBeforeProUnlock: () -> Void = { }
 
     private var appIsUsable = false
+
+    /// Crack build. Set only on `shared`, so every Pro gate — `state`, `isProLocked`, `isProAvailable`,
+    /// `ProFeature.attemptUse` — sees `.pro` no matter what the keychain, the trial clock, or the server
+    /// says. Instances built by tests keep the real behaviour, so the suite still runs unmodified.
+    var forcesPro = false
 
     private(set) var state: LicenseState = .trialNotStarted {
         didSet { onStateChanged?(state) }
@@ -253,6 +260,7 @@ class LicenseManager {
     }
 
     func computeState() -> LicenseState {
+        if forcesPro { return .pro }
         #if DEBUG
         if hasMockedLicense { return mockedTrialStartDate.map(trialState) ?? state }
         #endif
@@ -290,7 +298,9 @@ class LicenseManager {
     }
 
     func revalidateWithServer() {
-        guard let licenseKey = keychain.value(account: Self.keychainKeyAccount),
+        // An invalid server answer assigns `.trialExpired` directly, bypassing `computeState()`.
+        guard !forcesPro,
+              let licenseKey = keychain.value(account: Self.keychainKeyAccount),
               let instanceId = keychain.value(account: Self.keychainInstanceAccount) else { return }
         api.validate(licenseKey, instanceId: instanceId) { [weak self] result in
             DispatchQueue.main.async {
